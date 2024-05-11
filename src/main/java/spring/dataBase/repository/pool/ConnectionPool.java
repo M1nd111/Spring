@@ -1,10 +1,12 @@
 package spring.dataBase.repository.pool;
 
-import lombok.AllArgsConstructor;
+import jakarta.annotation.PostConstruct;
 import lombok.ToString;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+@Slf4j
 @ToString
 @Component
 public class ConnectionPool {
@@ -21,5 +23,10 @@ public class ConnectionPool {
         this.password = password;
         this.poolSize = poolSize;
         this.url = url;
+    }
+
+    @PostConstruct
+    private void init(){
+        log.info("Init connection pool");
     }
 }

@@ -1,0 +1,32 @@
+<!--
+<configuration>
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] %p [%c: %L] %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="file" class="ch.qos.logback.core.FileAppender">
+        <param name="file" value="LoggFile.log"/>
+
+        <param name="append" value="true"/>
+        <param name="maxFileSize" value="10MB"/>
+        <param name="maxBackupIndex" value="10"/>
+
+        <param name="append" value="true"/>
+        <param name="maxFileSize" value="10MB"/>
+        <param name="maxBackupIndex" value="10"/>
+
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] %p [%c: %L] %m%n</pattern>
+        </encoder>
+
+    </appender>
+
+    <root>
+        <level value="info"/>
+        <appender-ref ref="console"/>
+        <appender-ref ref="file"/>
+    </root>
+</configuration>
+-->

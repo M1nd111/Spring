@@ -1,0 +1,884 @@
+[2024-05-08 18:10:25.358] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 18:10:25.366] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 18:10:25.368] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 18:12:02.303] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 19672 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-08 18:12:02.305] INFO [spring.ApplicationRunner: 660] The following 1 profile is active: "qa"
+[2024-05-08 18:12:02.670] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 18:12:02.677] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 18:12:02.679] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 18:12:02.763] INFO [spring.ApplicationRunner: 56] Started ApplicationRunner in 0.803 seconds (process running for 1.221)
+[2024-05-08 19:49:41.577] INFO [integration.service.CompanyServiceIT: 50] Starting CompanyServiceIT using Java 21.0.2 with PID 11848 (started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-08 19:49:41.578] INFO [integration.service.CompanyServiceIT: 660] The following 1 profile is active: "test"
+[2024-05-08 19:49:42.024] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 19:49:42.031] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 19:49:42.033] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 19:49:42.139] INFO [integration.service.CompanyServiceIT: 56] Started CompanyServiceIT in 0.911 seconds (process running for 1.909)
+[2024-05-08 19:53:25.006] INFO [integration.service.CompanyServiceIT: 50] Starting CompanyServiceIT using Java 21.0.2 with PID 25888 (started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-08 19:53:25.008] INFO [integration.service.CompanyServiceIT: 660] The following 1 profile is active: "test"
+[2024-05-08 19:53:25.481] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 19:53:25.487] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 19:53:25.489] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 19:53:25.591] INFO [integration.service.CompanyServiceIT: 56] Started CompanyServiceIT in 0.956 seconds (process running for 1.939)
+[2024-05-08 19:54:45.647] INFO [integration.service.CompanyServiceIT: 50] Starting CompanyServiceIT using Java 21.0.2 with PID 23756 (started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-08 19:54:45.649] INFO [integration.service.CompanyServiceIT: 660] The following 1 profile is active: "test"
+[2024-05-08 19:54:46.090] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 19:54:46.097] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 19:54:46.099] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 19:54:46.200] INFO [integration.service.CompanyServiceIT: 56] Started CompanyServiceIT in 0.904 seconds (process running for 1.918)
+[2024-05-08 19:56:21.036] INFO [integration.service.CompanyServiceIT: 50] Starting CompanyServiceIT using Java 21.0.2 with PID 21988 (started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-08 19:56:21.038] INFO [integration.service.CompanyServiceIT: 660] The following 1 profile is active: "test"
+[2024-05-08 19:56:21.502] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 19:56:21.508] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 19:56:21.510] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 19:56:21.631] INFO [integration.service.CompanyServiceIT: 56] Started CompanyServiceIT in 0.968 seconds (process running for 2.015)
+[2024-05-08 20:00:14.607] INFO [integration.service.CompanyServiceIT: 50] Starting CompanyServiceIT using Java 21.0.2 with PID 24048 (started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-08 20:00:14.609] INFO [integration.service.CompanyServiceIT: 660] The following 1 profile is active: "test"
+[2024-05-08 20:00:15.087] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:00:15.093] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:00:15.095] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:00:15.196] INFO [integration.service.CompanyServiceIT: 56] Started CompanyServiceIT in 0.943 seconds (process running for 1.907)
+[2024-05-08 20:01:13.326] INFO [integration.service.CompanyServiceIT: 50] Starting CompanyServiceIT using Java 21.0.2 with PID 11056 (started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-08 20:01:13.327] INFO [integration.service.CompanyServiceIT: 660] The following 1 profile is active: "test"
+[2024-05-08 20:01:13.781] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:01:13.786] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:01:13.789] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:01:13.895] INFO [integration.service.CompanyServiceIT: 56] Started CompanyServiceIT in 0.953 seconds (process running for 2.044)
+[2024-05-08 20:02:26.742] INFO [integration.service.CompanyServiceIT: 50] Starting CompanyServiceIT using Java 21.0.2 with PID 26780 (started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-08 20:02:26.745] INFO [integration.service.CompanyServiceIT: 660] The following 1 profile is active: "test"
+[2024-05-08 20:02:27.208] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:02:27.214] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:02:27.216] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:02:27.315] INFO [integration.service.CompanyServiceIT: 56] Started CompanyServiceIT in 0.959 seconds (process running for 2.036)
+[2024-05-08 20:04:19.149] INFO [integration.service.CompanyServiceIT: 50] Starting CompanyServiceIT using Java 21.0.2 with PID 13164 (started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-08 20:04:19.151] INFO [integration.service.CompanyServiceIT: 660] The following 1 profile is active: "test"
+[2024-05-08 20:04:19.599] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:04:19.605] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:04:19.607] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:04:19.705] INFO [integration.service.CompanyServiceIT: 56] Started CompanyServiceIT in 0.943 seconds (process running for 1.951)
+[2024-05-08 20:05:58.859] INFO [integration.service.CompanyServiceIT: 50] Starting CompanyServiceIT using Java 21.0.2 with PID 24744 (started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-08 20:05:58.860] INFO [integration.service.CompanyServiceIT: 660] The following 1 profile is active: "test"
+[2024-05-08 20:05:59.351] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:05:59.358] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:05:59.360] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:05:59.463] INFO [integration.service.CompanyServiceIT: 56] Started CompanyServiceIT in 1.001 seconds (process running for 2.046)
+[2024-05-08 20:06:12.273] INFO [integration.service.CompanyServiceIT: 50] Starting CompanyServiceIT using Java 21.0.2 with PID 16620 (started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-08 20:06:12.275] INFO [integration.service.CompanyServiceIT: 660] The following 1 profile is active: "test"
+[2024-05-08 20:06:12.745] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:06:12.752] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:06:12.754] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:06:12.851] INFO [integration.service.CompanyServiceIT: 56] Started CompanyServiceIT in 0.943 seconds (process running for 1.963)
+[2024-05-08 20:06:13.583] INFO [integration.service.UserServiceIT: 50] Starting UserServiceIT using Java 21.0.2 with PID 16620 (started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-08 20:06:13.584] INFO [integration.service.UserServiceIT: 660] The following 1 profile is active: "test"
+[2024-05-08 20:06:13.840] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:06:13.846] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:06:13.937] INFO [integration.service.UserServiceIT: 56] Started UserServiceIT in 0.385 seconds (process running for 3.049)
+[2024-05-08 20:10:08.094] INFO [integration.service.CompanyServiceIT: 50] Starting CompanyServiceIT using Java 21.0.2 with PID 26156 (started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-08 20:10:08.096] INFO [integration.service.CompanyServiceIT: 660] The following 1 profile is active: "test"
+[2024-05-08 20:10:08.571] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:10:09.347] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:10:09.368] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:10:09.684] INFO [integration.service.CompanyServiceIT: 56] Started CompanyServiceIT in 1.968 seconds (process running for 3.023)
+[2024-05-08 20:11:57.612] INFO [integration.service.CompanyServiceIT: 50] Starting CompanyServiceIT using Java 21.0.2 with PID 10856 (started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-08 20:11:57.615] INFO [integration.service.CompanyServiceIT: 660] The following 1 profile is active: "test"
+[2024-05-08 20:11:58.928] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:11:58.951] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-08 20:11:59.162] INFO [integration.service.CompanyServiceIT: 56] Started CompanyServiceIT in 1.964 seconds (process running for 3.019)
+[2024-05-11 00:50:27.228] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 12756 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-11 00:50:27.231] INFO [spring.ApplicationRunner: 654] No active profile set, falling back to 1 default profile: "default"
+[2024-05-11 00:50:27.691] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-11 00:50:27.709] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 211] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+[2024-05-11 00:50:28.039] INFO [org.hibernate.jpa.internal.util.LogHelper: 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-11 00:50:28.081] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-11 00:50:28.108] INFO [org.hibernate.cache.internal.RegionFactoryInitiator: 50] HHH000026: Second-level cache disabled
+[2024-05-11 00:50:28.327] INFO [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: 87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-11 00:50:28.343] INFO [com.zaxxer.hikari.HikariDataSource: 110] HikariPool-1 - Starting...
+[2024-05-11 00:50:28.345] WARN [com.zaxxer.hikari.util.DriverDataSource: 70] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2024-05-11 00:50:28.725] INFO [com.zaxxer.hikari.pool.HikariPool: 565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39449465
+[2024-05-11 00:50:28.728] INFO [com.zaxxer.hikari.HikariDataSource: 123] HikariPool-1 - Start completed.
+[2024-05-11 00:50:29.716] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-11 00:50:29.760] ERROR [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 426] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+[2024-05-11 00:50:29.761] WARN [org.springframework.context.annotation.AnnotationConfigApplicationContext: 632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+[2024-05-11 00:50:29.761] INFO [com.zaxxer.hikari.HikariDataSource: 350] HikariPool-1 - Shutdown initiated...
+[2024-05-11 00:50:29.771] INFO [com.zaxxer.hikari.HikariDataSource: 352] HikariPool-1 - Shutdown completed.
+[2024-05-11 00:50:29.776] INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-05-11 00:50:29.797] ERROR [org.springframework.boot.SpringApplication: 851] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at spring.ApplicationRunner.main(ApplicationRunner.java:14)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:165)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:152)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:75)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:295)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 19 common frames omitted
+[2024-05-11 00:51:03.393] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 25848 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-11 00:51:03.395] INFO [spring.ApplicationRunner: 654] No active profile set, falling back to 1 default profile: "default"
+[2024-05-11 00:51:03.792] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-11 00:51:03.810] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 211] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+[2024-05-11 00:51:04.120] INFO [org.hibernate.jpa.internal.util.LogHelper: 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-11 00:51:04.160] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-11 00:51:04.190] INFO [org.hibernate.cache.internal.RegionFactoryInitiator: 50] HHH000026: Second-level cache disabled
+[2024-05-11 00:51:04.400] INFO [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: 87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-11 00:51:04.423] INFO [com.zaxxer.hikari.HikariDataSource: 110] HikariPool-1 - Starting...
+[2024-05-11 00:51:04.426] WARN [com.zaxxer.hikari.util.DriverDataSource: 70] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2024-05-11 00:51:04.709] INFO [com.zaxxer.hikari.pool.HikariPool: 565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f09e6b2
+[2024-05-11 00:51:04.711] INFO [com.zaxxer.hikari.HikariDataSource: 123] HikariPool-1 - Start completed.
+[2024-05-11 00:51:05.692] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-11 00:51:05.741] ERROR [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 426] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+[2024-05-11 00:51:05.742] WARN [org.springframework.context.annotation.AnnotationConfigApplicationContext: 632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+[2024-05-11 00:51:05.742] INFO [com.zaxxer.hikari.HikariDataSource: 350] HikariPool-1 - Shutdown initiated...
+[2024-05-11 00:51:05.750] INFO [com.zaxxer.hikari.HikariDataSource: 352] HikariPool-1 - Shutdown completed.
+[2024-05-11 00:51:05.755] INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-05-11 00:51:05.773] ERROR [org.springframework.boot.SpringApplication: 851] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at spring.ApplicationRunner.main(ApplicationRunner.java:14)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:165)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:152)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:75)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:295)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 19 common frames omitted
+[2024-05-11 00:51:39.542] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 24764 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-11 00:51:39.544] INFO [spring.ApplicationRunner: 654] No active profile set, falling back to 1 default profile: "default"
+[2024-05-11 00:51:39.979] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-11 00:51:40.000] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 211] Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+[2024-05-11 00:51:40.323] INFO [org.hibernate.jpa.internal.util.LogHelper: 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-11 00:51:40.355] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-11 00:51:40.378] INFO [org.hibernate.cache.internal.RegionFactoryInitiator: 50] HHH000026: Second-level cache disabled
+[2024-05-11 00:51:40.548] INFO [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: 87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-11 00:51:40.564] INFO [com.zaxxer.hikari.HikariDataSource: 110] HikariPool-1 - Starting...
+[2024-05-11 00:51:40.567] WARN [com.zaxxer.hikari.util.DriverDataSource: 70] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2024-05-11 00:51:40.843] INFO [com.zaxxer.hikari.pool.HikariPool: 565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b297740
+[2024-05-11 00:51:40.847] INFO [com.zaxxer.hikari.HikariDataSource: 123] HikariPool-1 - Start completed.
+[2024-05-11 00:51:41.756] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-11 00:51:41.791] ERROR [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 426] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+[2024-05-11 00:51:41.792] WARN [org.springframework.context.annotation.AnnotationConfigApplicationContext: 632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+[2024-05-11 00:51:41.792] INFO [com.zaxxer.hikari.HikariDataSource: 350] HikariPool-1 - Shutdown initiated...
+[2024-05-11 00:51:41.801] INFO [com.zaxxer.hikari.HikariDataSource: 352] HikariPool-1 - Shutdown completed.
+[2024-05-11 00:51:41.806] INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-05-11 00:51:41.821] ERROR [org.springframework.boot.SpringApplication: 851] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at spring.ApplicationRunner.main(ApplicationRunner.java:14)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:165)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:152)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:75)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:295)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 19 common frames omitted
+[2024-05-11 00:52:13.013] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 11864 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-11 00:52:13.019] INFO [spring.ApplicationRunner: 654] No active profile set, falling back to 1 default profile: "default"
+[2024-05-11 00:52:13.401] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-11 00:52:13.418] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 211] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+[2024-05-11 00:52:13.716] INFO [org.hibernate.jpa.internal.util.LogHelper: 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-11 00:52:13.762] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-11 00:52:13.793] INFO [org.hibernate.cache.internal.RegionFactoryInitiator: 50] HHH000026: Second-level cache disabled
+[2024-05-11 00:52:13.980] INFO [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: 87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-11 00:52:13.996] INFO [com.zaxxer.hikari.HikariDataSource: 110] HikariPool-1 - Starting...
+[2024-05-11 00:52:14.268] INFO [com.zaxxer.hikari.pool.HikariPool: 565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5864e8bf
+[2024-05-11 00:52:14.269] INFO [com.zaxxer.hikari.HikariDataSource: 123] HikariPool-1 - Start completed.
+[2024-05-11 00:52:15.155] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-11 00:52:15.188] ERROR [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 426] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+[2024-05-11 00:52:15.189] WARN [org.springframework.context.annotation.AnnotationConfigApplicationContext: 632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+[2024-05-11 00:52:15.189] INFO [com.zaxxer.hikari.HikariDataSource: 350] HikariPool-1 - Shutdown initiated...
+[2024-05-11 00:52:15.197] INFO [com.zaxxer.hikari.HikariDataSource: 352] HikariPool-1 - Shutdown completed.
+[2024-05-11 00:52:15.202] INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-05-11 00:52:15.221] ERROR [org.springframework.boot.SpringApplication: 851] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at spring.ApplicationRunner.main(ApplicationRunner.java:14)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:165)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:152)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:75)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:295)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 19 common frames omitted
+[2024-05-11 00:55:11.627] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 9464 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-11 00:55:11.629] INFO [spring.ApplicationRunner: 654] No active profile set, falling back to 1 default profile: "default"
+[2024-05-11 00:55:12.078] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-11 00:55:12.095] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 211] Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+[2024-05-11 00:55:12.419] INFO [org.hibernate.jpa.internal.util.LogHelper: 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-11 00:55:12.454] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-11 00:55:12.483] INFO [org.hibernate.cache.internal.RegionFactoryInitiator: 50] HHH000026: Second-level cache disabled
+[2024-05-11 00:55:12.670] INFO [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: 87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-11 00:55:12.689] INFO [com.zaxxer.hikari.HikariDataSource: 110] HikariPool-1 - Starting...
+[2024-05-11 00:55:12.958] INFO [com.zaxxer.hikari.pool.HikariPool: 565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66713605
+[2024-05-11 00:55:12.960] INFO [com.zaxxer.hikari.HikariDataSource: 123] HikariPool-1 - Start completed.
+[2024-05-11 00:55:13.992] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-11 00:55:14.040] ERROR [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 426] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [company_locales]; found [int (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
+[2024-05-11 00:55:14.041] WARN [org.springframework.context.annotation.AnnotationConfigApplicationContext: 632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [company_locales]; found [int (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
+[2024-05-11 00:55:14.041] INFO [com.zaxxer.hikari.HikariDataSource: 350] HikariPool-1 - Shutdown initiated...
+[2024-05-11 00:55:14.049] INFO [com.zaxxer.hikari.HikariDataSource: 352] HikariPool-1 - Shutdown completed.
+[2024-05-11 00:55:14.054] INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-05-11 00:55:14.074] ERROR [org.springframework.boot.SpringApplication: 851] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [company_locales]; found [int (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at spring.ApplicationRunner.main(ApplicationRunner.java:14)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [company_locales]; found [int (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [company_locales]; found [int (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:165)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:152)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:75)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:295)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 19 common frames omitted
+[2024-05-11 01:01:52.410] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 13772 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-11 01:01:52.412] INFO [spring.ApplicationRunner: 654] No active profile set, falling back to 1 default profile: "default"
+[2024-05-11 01:01:52.814] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-11 01:01:52.832] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 211] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+[2024-05-11 01:01:53.137] INFO [org.hibernate.jpa.internal.util.LogHelper: 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-11 01:01:53.193] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-11 01:01:53.221] INFO [org.hibernate.cache.internal.RegionFactoryInitiator: 50] HHH000026: Second-level cache disabled
+[2024-05-11 01:01:53.441] INFO [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: 87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-11 01:01:53.456] INFO [com.zaxxer.hikari.HikariDataSource: 110] HikariPool-1 - Starting...
+[2024-05-11 01:01:53.758] INFO [com.zaxxer.hikari.pool.HikariPool: 565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1bee0085
+[2024-05-11 01:01:53.761] INFO [com.zaxxer.hikari.HikariDataSource: 123] HikariPool-1 - Start completed.
+[2024-05-11 01:01:54.932] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-11 01:01:54.979] ERROR [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 426] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+[2024-05-11 01:01:54.980] WARN [org.springframework.context.annotation.AnnotationConfigApplicationContext: 632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+[2024-05-11 01:01:54.981] INFO [com.zaxxer.hikari.HikariDataSource: 350] HikariPool-1 - Shutdown initiated...
+[2024-05-11 01:01:54.987] INFO [com.zaxxer.hikari.HikariDataSource: 352] HikariPool-1 - Shutdown completed.
+[2024-05-11 01:01:54.991] INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-05-11 01:01:55.005] ERROR [org.springframework.boot.SpringApplication: 851] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at spring.ApplicationRunner.main(ApplicationRunner.java:14)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:165)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:152)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:75)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:295)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 19 common frames omitted
+[2024-05-11 01:08:54.608] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 19496 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-11 01:08:54.611] INFO [spring.ApplicationRunner: 660] The following 1 profile is active: "qa"
+[2024-05-11 01:08:55.019] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-11 01:08:55.043] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 211] Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+[2024-05-11 01:08:55.387] INFO [org.hibernate.jpa.internal.util.LogHelper: 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-11 01:08:55.438] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-11 01:08:55.468] INFO [org.hibernate.cache.internal.RegionFactoryInitiator: 50] HHH000026: Second-level cache disabled
+[2024-05-11 01:08:55.684] INFO [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: 87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-11 01:08:55.707] INFO [com.zaxxer.hikari.HikariDataSource: 110] HikariPool-1 - Starting...
+[2024-05-11 01:08:56.023] INFO [com.zaxxer.hikari.pool.HikariPool: 565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@621f23ac
+[2024-05-11 01:08:56.025] INFO [com.zaxxer.hikari.HikariDataSource: 123] HikariPool-1 - Start completed.
+[2024-05-11 01:08:57.097] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-11 01:08:57.130] ERROR [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 426] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+[2024-05-11 01:08:57.130] WARN [org.springframework.context.annotation.AnnotationConfigApplicationContext: 632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+[2024-05-11 01:08:57.130] INFO [com.zaxxer.hikari.HikariDataSource: 350] HikariPool-1 - Shutdown initiated...
+[2024-05-11 01:08:57.137] INFO [com.zaxxer.hikari.HikariDataSource: 352] HikariPool-1 - Shutdown completed.
+[2024-05-11 01:08:57.142] INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-05-11 01:08:57.155] ERROR [org.springframework.boot.SpringApplication: 851] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at spring.ApplicationRunner.main(ApplicationRunner.java:14)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:165)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:152)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:75)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:295)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 19 common frames omitted
+[2024-05-11 01:09:43.575] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 25716 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-11 01:09:43.577] INFO [spring.ApplicationRunner: 660] The following 1 profile is active: "qa"
+[2024-05-11 01:09:43.980] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-11 01:09:43.997] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 211] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+[2024-05-11 01:09:44.276] INFO [org.hibernate.jpa.internal.util.LogHelper: 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-11 01:09:44.313] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-11 01:09:44.336] INFO [org.hibernate.cache.internal.RegionFactoryInitiator: 50] HHH000026: Second-level cache disabled
+[2024-05-11 01:09:44.492] INFO [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: 87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-11 01:09:44.514] INFO [com.zaxxer.hikari.HikariDataSource: 110] HikariPool-1 - Starting...
+[2024-05-11 01:09:44.776] INFO [com.zaxxer.hikari.pool.HikariPool: 565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b7554d4
+[2024-05-11 01:09:44.778] INFO [com.zaxxer.hikari.HikariDataSource: 123] HikariPool-1 - Start completed.
+[2024-05-11 01:09:45.650] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-11 01:09:45.681] ERROR [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 426] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+[2024-05-11 01:09:45.681] WARN [org.springframework.context.annotation.AnnotationConfigApplicationContext: 632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+[2024-05-11 01:09:45.682] INFO [com.zaxxer.hikari.HikariDataSource: 350] HikariPool-1 - Shutdown initiated...
+[2024-05-11 01:09:45.689] INFO [com.zaxxer.hikari.HikariDataSource: 352] HikariPool-1 - Shutdown completed.
+[2024-05-11 01:09:45.694] INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-05-11 01:09:45.706] ERROR [org.springframework.boot.SpringApplication: 851] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at spring.ApplicationRunner.main(ApplicationRunner.java:14)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:165)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:152)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:75)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:295)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 19 common frames omitted
+[2024-05-11 01:11:52.093] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 15260 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-11 01:11:52.094] INFO [spring.ApplicationRunner: 660] The following 1 profile is active: "qa"
+[2024-05-11 01:11:52.540] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-11 01:11:52.569] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 211] Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+[2024-05-11 01:11:52.921] INFO [org.hibernate.jpa.internal.util.LogHelper: 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-11 01:11:52.977] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-11 01:11:53.009] INFO [org.hibernate.cache.internal.RegionFactoryInitiator: 50] HHH000026: Second-level cache disabled
+[2024-05-11 01:11:53.224] INFO [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: 87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-11 01:11:53.250] INFO [com.zaxxer.hikari.HikariDataSource: 110] HikariPool-1 - Starting...
+[2024-05-11 01:11:53.550] INFO [com.zaxxer.hikari.pool.HikariPool: 565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ee8051c
+[2024-05-11 01:11:53.552] INFO [com.zaxxer.hikari.HikariDataSource: 123] HikariPool-1 - Start completed.
+[2024-05-11 01:11:54.462] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-11 01:11:54.506] ERROR [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 426] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+[2024-05-11 01:11:54.506] WARN [org.springframework.context.annotation.AnnotationConfigApplicationContext: 632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+[2024-05-11 01:11:54.507] INFO [com.zaxxer.hikari.HikariDataSource: 350] HikariPool-1 - Shutdown initiated...
+[2024-05-11 01:11:54.513] INFO [com.zaxxer.hikari.HikariDataSource: 352] HikariPool-1 - Shutdown completed.
+[2024-05-11 01:11:54.518] INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-05-11 01:11:54.531] ERROR [org.springframework.boot.SpringApplication: 851] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at spring.ApplicationRunner.main(ApplicationRunner.java:14)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user') (Types#ENUM)]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:165)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:152)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:75)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:295)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 19 common frames omitted
+[2024-05-11 01:12:29.034] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 24728 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-11 01:12:29.036] INFO [spring.ApplicationRunner: 660] The following 1 profile is active: "qa"
+[2024-05-11 01:12:29.492] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-11 01:12:29.516] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 211] Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+[2024-05-11 01:12:29.839] INFO [org.hibernate.jpa.internal.util.LogHelper: 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-11 01:12:29.886] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-11 01:12:29.914] INFO [org.hibernate.cache.internal.RegionFactoryInitiator: 50] HHH000026: Second-level cache disabled
+[2024-05-11 01:12:30.098] INFO [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: 87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-11 01:12:30.118] INFO [com.zaxxer.hikari.HikariDataSource: 110] HikariPool-1 - Starting...
+[2024-05-11 01:12:30.406] INFO [com.zaxxer.hikari.pool.HikariPool: 565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@621f23ac
+[2024-05-11 01:12:30.409] INFO [com.zaxxer.hikari.HikariDataSource: 123] HikariPool-1 - Start completed.
+[2024-05-11 01:12:31.360] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-11 01:12:31.395] ERROR [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 426] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [users]; found [int (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
+[2024-05-11 01:12:31.396] WARN [org.springframework.context.annotation.AnnotationConfigApplicationContext: 632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [users]; found [int (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
+[2024-05-11 01:12:31.397] INFO [com.zaxxer.hikari.HikariDataSource: 350] HikariPool-1 - Shutdown initiated...
+[2024-05-11 01:12:31.407] INFO [com.zaxxer.hikari.HikariDataSource: 352] HikariPool-1 - Shutdown completed.
+[2024-05-11 01:12:31.412] INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-05-11 01:12:31.429] ERROR [org.springframework.boot.SpringApplication: 851] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [users]; found [int (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at spring.ApplicationRunner.main(ApplicationRunner.java:14)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [users]; found [int (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [users]; found [int (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:165)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:152)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:75)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:295)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 19 common frames omitted
+[2024-05-11 01:14:08.031] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 17972 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-11 01:14:08.032] INFO [spring.ApplicationRunner: 660] The following 1 profile is active: "qa"
+[2024-05-11 01:14:08.430] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-11 01:14:08.448] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 211] Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+[2024-05-11 01:14:08.762] INFO [org.hibernate.jpa.internal.util.LogHelper: 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-11 01:14:08.805] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-11 01:14:08.832] INFO [org.hibernate.cache.internal.RegionFactoryInitiator: 50] HHH000026: Second-level cache disabled
+[2024-05-11 01:14:09.017] INFO [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: 87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-11 01:14:09.035] INFO [com.zaxxer.hikari.HikariDataSource: 110] HikariPool-1 - Starting...
+[2024-05-11 01:14:09.308] INFO [com.zaxxer.hikari.pool.HikariPool: 565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ee8051c
+[2024-05-11 01:14:09.310] INFO [com.zaxxer.hikari.HikariDataSource: 123] HikariPool-1 - Start completed.
+[2024-05-11 01:14:10.207] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-11 01:14:10.250] ERROR [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 426] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+[2024-05-11 01:14:10.252] WARN [org.springframework.context.annotation.AnnotationConfigApplicationContext: 632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+[2024-05-11 01:14:10.253] INFO [com.zaxxer.hikari.HikariDataSource: 350] HikariPool-1 - Shutdown initiated...
+[2024-05-11 01:14:10.261] INFO [com.zaxxer.hikari.HikariDataSource: 352] HikariPool-1 - Shutdown completed.
+[2024-05-11 01:14:10.266] INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-05-11 01:14:10.281] ERROR [org.springframework.boot.SpringApplication: 851] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at spring.ApplicationRunner.main(ApplicationRunner.java:14)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [id] in table [company]; found [bigint unsigned (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:165)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:152)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:75)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:295)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 19 common frames omitted
+[2024-05-11 01:15:23.818] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 2400 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-11 01:15:23.820] INFO [spring.ApplicationRunner: 660] The following 1 profile is active: "qa"
+[2024-05-11 01:15:24.218] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-11 01:15:24.238] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 211] Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+[2024-05-11 01:15:24.525] INFO [org.hibernate.jpa.internal.util.LogHelper: 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-11 01:15:24.557] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-11 01:15:24.578] INFO [org.hibernate.cache.internal.RegionFactoryInitiator: 50] HHH000026: Second-level cache disabled
+[2024-05-11 01:15:24.734] INFO [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: 87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-11 01:15:24.753] INFO [com.zaxxer.hikari.HikariDataSource: 110] HikariPool-1 - Starting...
+[2024-05-11 01:15:25.006] INFO [com.zaxxer.hikari.pool.HikariPool: 565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9b2dc56
+[2024-05-11 01:15:25.008] INFO [com.zaxxer.hikari.HikariDataSource: 123] HikariPool-1 - Start completed.
+[2024-05-11 01:15:26.032] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-11 01:15:26.069] ERROR [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 426] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [company_locales]; found [bigint (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+[2024-05-11 01:15:26.070] WARN [org.springframework.context.annotation.AnnotationConfigApplicationContext: 632] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [company_locales]; found [bigint (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+[2024-05-11 01:15:26.071] INFO [com.zaxxer.hikari.HikariDataSource: 350] HikariPool-1 - Shutdown initiated...
+[2024-05-11 01:15:26.079] INFO [com.zaxxer.hikari.HikariDataSource: 352] HikariPool-1 - Shutdown completed.
+[2024-05-11 01:15:26.084] INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-05-11 01:15:26.100] ERROR [org.springframework.boot.SpringApplication: 851] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [company_locales]; found [bigint (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at spring.ApplicationRunner.main(ApplicationRunner.java:14)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [company_locales]; found [bigint (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [company_id] in table [company_locales]; found [bigint (Types#BIGINT)], but expecting [integer (Types#INTEGER)]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:165)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:152)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:75)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:295)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 19 common frames omitted
+[2024-05-11 01:16:53.993] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 14680 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-11 01:16:53.994] INFO [spring.ApplicationRunner: 660] The following 1 profile is active: "qa"
+[2024-05-11 01:16:54.399] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-11 01:16:54.415] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 211] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+[2024-05-11 01:16:54.711] INFO [org.hibernate.jpa.internal.util.LogHelper: 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-11 01:16:54.749] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-11 01:16:54.776] INFO [org.hibernate.cache.internal.RegionFactoryInitiator: 50] HHH000026: Second-level cache disabled
+[2024-05-11 01:16:54.944] INFO [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: 87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-11 01:16:54.962] INFO [com.zaxxer.hikari.HikariDataSource: 110] HikariPool-1 - Starting...
+[2024-05-11 01:16:55.227] INFO [com.zaxxer.hikari.pool.HikariPool: 565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35563e4c
+[2024-05-11 01:16:55.229] INFO [com.zaxxer.hikari.HikariDataSource: 123] HikariPool-1 - Start completed.
+[2024-05-11 01:16:56.172] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-11 01:16:56.206] INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-11 01:16:56.240] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-11 01:16:56.245] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-11 01:16:56.246] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-11 01:16:56.415] INFO [spring.ApplicationRunner: 56] Started ApplicationRunner in 2.843 seconds (process running for 3.347)
+[2024-05-11 01:16:56.434] INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 650] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-11 01:16:56.435] INFO [com.zaxxer.hikari.HikariDataSource: 350] HikariPool-1 - Shutdown initiated...
+[2024-05-11 01:16:56.443] INFO [com.zaxxer.hikari.HikariDataSource: 352] HikariPool-1 - Shutdown completed.
+[2024-05-11 01:18:37.430] INFO [spring.ApplicationRunner: 50] Starting ApplicationRunner using Java 21.0.2 with PID 26444 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+[2024-05-11 01:18:37.432] INFO [spring.ApplicationRunner: 660] The following 1 profile is active: "qa"
+[2024-05-11 01:18:37.847] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-11 01:18:37.865] INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate: 211] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+[2024-05-11 01:18:38.168] INFO [org.hibernate.jpa.internal.util.LogHelper: 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-11 01:18:38.203] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-11 01:18:38.225] INFO [org.hibernate.cache.internal.RegionFactoryInitiator: 50] HHH000026: Second-level cache disabled
+[2024-05-11 01:18:38.381] INFO [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: 87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-11 01:18:38.406] INFO [com.zaxxer.hikari.HikariDataSource: 110] HikariPool-1 - Starting...
+[2024-05-11 01:18:38.667] INFO [com.zaxxer.hikari.pool.HikariPool: 565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ee8051c
+[2024-05-11 01:18:38.669] INFO [com.zaxxer.hikari.HikariDataSource: 123] HikariPool-1 - Start completed.
+[2024-05-11 01:18:39.593] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-11 01:18:39.627] INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-11 01:18:39.657] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-11 01:18:39.662] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-11 01:18:39.664] INFO [spring.dataBase.repository.pool.ConnectionPool: 30] Init connection pool
+[2024-05-11 01:18:39.823] INFO [spring.ApplicationRunner: 56] Started ApplicationRunner in 2.817 seconds (process running for 3.311)
+[2024-05-11 01:18:39.841] INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: 650] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-11 01:18:39.843] INFO [com.zaxxer.hikari.HikariDataSource: 350] HikariPool-1 - Shutdown initiated...
+[2024-05-11 01:18:39.851] INFO [com.zaxxer.hikari.HikariDataSource: 352] HikariPool-1 - Shutdown completed.

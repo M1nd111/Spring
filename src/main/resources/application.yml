@@ -1,0 +1,49 @@
+db:
+  username: root
+  password: Root89
+
+  driver: MySqlDriver
+
+  url: jdbc:mysql://localhost:3306
+  host: localhost,127.0.0.1
+
+  properties:
+    first: 1
+    last: 2
+    key: 3
+
+  pool:
+    size: 100
+    timeout: 20
+
+  pools:
+    - size: 100
+      timeout: 20
+    - size: 100
+      timeout: 20
+    - size: 100
+      timeout: 20
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springdata
+    username: root
+    password: Root89
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        hbm2ddl:
+          auto: validate
+
+
+logging:
+  level:
+    root: warn
+    spring.dataBase.repository.pool.ConnectionPool: INFO
+  file:
+    name:
+      loggFile
+    path: /
