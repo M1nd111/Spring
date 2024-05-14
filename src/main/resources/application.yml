@@ -25,6 +25,10 @@ db:
       timeout: 20
 
 spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
   datasource:
     url: jdbc:mysql://localhost:3306/springdata
     username: root
@@ -41,8 +45,7 @@ spring:
 
 logging:
   level:
-    root: warn
-    spring.dataBase.repository.pool.ConnectionPool: INFO
+    root: info
   file:
     name:
       loggFile
