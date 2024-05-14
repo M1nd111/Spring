@@ -2,15 +2,19 @@ package spring.dataBase.repository.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.antlr.v4.runtime.misc.NotNull;
+import spring.dataBase.repository.converter.BirthdayConverter;
 
 import java.math.BigInteger;
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString(exclude = {"company_id", "info", "usersChats"})
+@ToString(exclude = {"companyId", "usersChats"})
 @EqualsAndHashCode(of = "username")
 @Builder
 @Entity
@@ -24,8 +28,13 @@ public class User implements BaseEntity<Long> {
     @Column(nullable = false, unique = true)
     private String username;
 
-    @Embedded
-    private PersonalInfo info;
+//    @Embedded
+//    private PersonalInfo info;
+//    @Convert(converter = BirthdayConverter.class)
+    @Column(name = "birth_date")
+    private LocalDate birthDate;
+    private String firstname;
+    private String lastname;
 
 
 //    @Enumerated(EnumType.STRING)
@@ -33,7 +42,7 @@ public class User implements BaseEntity<Long> {
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "company_id")
-    private Company company_id;
+    private Company companyId;
 
     @Builder.Default
     @OneToMany(mappedBy = "user")
