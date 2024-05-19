@@ -1,9 +1,7 @@
 package spring.mapper;
 
 import org.springframework.stereotype.Component;
-import spring.dataBase.repository.entity.Role;
 import spring.dataBase.repository.entity.User;
-import spring.dto.CompanyReadDto;
 import spring.dto.UserReadDto;
 
 @Component
@@ -17,7 +15,8 @@ public class UserReadMapper implements Mapper<User, UserReadDto>{
                 object.getLastname(),
                 object.getFirstname(),
                 object.getRole(),
-               object.getCompanyId().getId()
+                object.getCompanyId().getId(),
+                object.getImage()
                 );
     }
 

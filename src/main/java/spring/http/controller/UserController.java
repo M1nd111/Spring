@@ -1,4 +1,4 @@
-package spring.http;
+package spring.http.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -13,6 +13,7 @@ import spring.dataBase.repository.UserRepository;
 import spring.dataBase.repository.entity.Role;
 import spring.dataBase.repository.entity.User;
 import spring.dto.PageResponse;
+import spring.dto.UserCreateDto;
 import spring.dto.UserFilter;
 import spring.dto.UserReadDto;
 import spring.service.CompanyService;
@@ -52,7 +53,7 @@ public class UserController {
         return "user/user";
     }
     @PostMapping
-    public String save(@ModelAttribute @Validated UserReadDto userDto,
+    public String save(@ModelAttribute @Validated UserCreateDto userDto,
                        BindingResult bindingResult,
                        RedirectAttributes redirectAttributes){
         if(bindingResult.hasErrors()){
@@ -65,7 +66,7 @@ public class UserController {
         return "redirect:/users/" + user.getId();
     }
     @PostMapping("/{id}/update")
-    public String update(@PathVariable("id") Long id, @ModelAttribute @Validated UserReadDto userReadDto){
+    public String update(@PathVariable("id") Long id, @ModelAttribute @Validated UserCreateDto userReadDto){
         System.out.println(userReadDto);
         userService.update(id, userReadDto);
         return "redirect:/users/{id}";

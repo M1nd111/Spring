@@ -21,7 +21,7 @@
 </head>
 <body>
 <div class="brd">
-    <form th:action="@{/users}" method="post" th:object="${user}">
+    <form th:action="@{/users}" enctype="multipart/form-data" method="post" th:object="${user}">
 
         <label for="username">Username:
             <input id="username" type="text" name="username"  th:value=" (*{username} != null) ? *{username} : ''">
@@ -42,6 +42,9 @@
             <input id="companyId" type="text" name="companyId" th:value="(*{companyId} != null) ? *{companyId} : ''">
         </label><br><br>
 
+        <label for="image">Image:
+            <input id="image" type="file" name="image">
+        </label>
         <br><br>
         <button type="submit">Register</button>
         <br><br>

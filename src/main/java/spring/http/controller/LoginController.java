@@ -1,4 +1,4 @@
-package spring.http;
+package spring.http.controller;
 
 
 import org.springframework.stereotype.Controller;

@@ -2,13 +2,9 @@ package spring.dataBase.repository.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.antlr.v4.runtime.misc.NotNull;
-import spring.dataBase.repository.converter.BirthdayConverter;
 
-import java.math.BigInteger;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 @Data
@@ -43,6 +39,8 @@ public class User implements BaseEntity<Long> {
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "company_id")
     private Company companyId;
+
+    private String image;
 
     @Builder.Default
     @OneToMany(mappedBy = "user")
