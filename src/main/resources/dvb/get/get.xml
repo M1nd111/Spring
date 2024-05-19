@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope
+        xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <TransactionResponse xmlns="https://services.elecanet.ru/Payment/">
+            <HostResponse operation="auth">
+                <termType>2</termType>
+                <termID>000122002</termID>
+                <regNum>8980</regNum>
+                <reqDateTime>20080514170000</reqDateTime>
+                <merchantCode>MTS</merchantCode>
+                <respCode>00</respCode>
+                <confirm>0</confirm>
+            </HostResponse>
+        </TransactionResponse>
+    </soap:Body>
+</soap:Envelope>

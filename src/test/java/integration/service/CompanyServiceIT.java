@@ -19,6 +19,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @TestConstructor(autowireMode = TestConstructor.AutowireMode.ALL)
 public class CompanyServiceIT {
     private static final Integer COMPANY_ID = 1;
+    private static final String COMPANY_NAME = "NAME";
 
     private final CompanyService companyService;
 
@@ -29,7 +30,7 @@ public class CompanyServiceIT {
 
         assertTrue(actualResult.isPresent());
 
-        var expectedResult = new CompanyReadDto(COMPANY_ID);
+        var expectedResult = new CompanyReadDto(COMPANY_ID, COMPANY_NAME);
 
         actualResult.ifPresent(actual -> assertEquals(expectedResult, actual));
     }

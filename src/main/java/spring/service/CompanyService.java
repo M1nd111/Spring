@@ -10,7 +10,9 @@ import spring.dto.CompanyReadDto;
 import spring.listener.AccessType;
 import spring.listener.EntityEvent;
 
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 @Transactional // только public методы оборачиваются
@@ -22,7 +24,13 @@ public class CompanyService {
     public Optional<CompanyReadDto> findById(Integer id){
         return companyRepository.findById(id).map(entity -> {
             applicationEventPublisher.publishEvent(new EntityEvent(entity , AccessType.READ));
-            return new CompanyReadDto(entity.getId());
+            return new CompanyReadDto(entity.getId(), entity.getName());
         });
+    }
+
+    public List<CompanyReadDto> findAll(){
+        return companyRepository.findAll().stream().map(x -> {
+            return new CompanyReadDto(x.getId(), x.getName());
+        }).collect(Collectors.toList());
     }
 }

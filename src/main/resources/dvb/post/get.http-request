@@ -1,0 +1,7 @@
+POST /Payment/Gateway.аsmx HTTP/1.1
+Content-Type: application/soap+xml; charset=utf-0; action="https://services.elecsnet.ru/Payment/Transaction"
+Host: services.elecsnet.ru
+Content-Length: 681
+Connection: Keep-Alive
+Cache-Control: no-cache
+Pragma: no-cache

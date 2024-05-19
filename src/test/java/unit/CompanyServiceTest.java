@@ -23,6 +23,7 @@ import static org.mockito.Mockito.verify;
 @ExtendWith(MockitoExtension.class)
 public class CompanyServiceTest {
     private static final Integer COMPANY_ID = 1;
+    private static final String COMPANY_NAME = "1";
 
     @Mock
     private CompanyRepository companyRepository;
@@ -41,7 +42,7 @@ public class CompanyServiceTest {
 
         assertTrue(actualResult.isPresent());
 
-        var expectedResult = new CompanyReadDto(COMPANY_ID);
+        var expectedResult = new CompanyReadDto(COMPANY_ID, COMPANY_NAME);
 
         actualResult.ifPresent(actual -> assertEquals(expectedResult, actual));
 
