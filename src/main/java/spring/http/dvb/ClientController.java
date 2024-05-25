@@ -2,51 +2,146 @@ package spring.http.dvb;
 
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.stereotype.Controller;
-import org.springframework.util.LinkedMultiValueMap;
-import org.springframework.util.MultiValueMap;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.client.RestTemplate;
-
-import java.util.HashMap;
-import java.util.Map;
+import spring.dataBase.repository.entity.ClientCreateReq;
 
 
 @Controller
-@RequestMapping("/api/dvb")
+@RequestMapping("/cgi-bin/QIWI_XML")
 @CrossOrigin
 public class ClientController {
     @Autowired
     private HttpServletResponse response;
     @Autowired
     private RestTemplate restTemplate;
-    @GetMapping("/client")
+
+    @GetMapping("/index")
     public String startPage(){
-        return "dvb/client";
+        return "dvb/cgi-bin/QIWI_XML/index";
     }
 
-    @PostMapping("/client")
-    public String Gateway(@RequestParam("xmlBody") String xmlBody){
-        System.out.println(xmlBody);
+    @PostMapping("/index.rb")
+    public ResponseEntity<String> ToGateway(Model model, ClientCreateReq clientCreateReq ){
+        model.addAttribute("clientReq", clientCreateReq);
 
-        var headers = new HttpHeaders();
-        headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
+        String xmlResponse = "";
 
-        MultiValueMap<String, String> map= new LinkedMultiValueMap<>();
-        map.add("xmlBody", xmlBody);
+        switch (clientCreateReq.getFunction()){
 
-        HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<>(map, headers);
+            case "bank_account":
+                xmlResponse = bankAccount(clientCreateReq);
+                break;
+            case "bank_payment":
+                xmlResponse = bankPayment(clientCreateReq);
+                break;
+            case "getPaymentStatus":
+                xmlResponse = getPaymentStatus(clientCreateReq);
+                break;
 
-        ResponseEntity<String> response = restTemplate.postForEntity(
-                "http://localhost:8080/api/dvb/receiver", request, String.class);
+        }
 
-        System.out.println("Response from receiver: " + response.getBody());
+        // Отправляем XML-ответ
+        return ResponseEntity.status(HttpStatus.ACCEPTED).body(xmlResponse);
 
-        return "redirect:receiver";
+    }
+    private String bankAccount(ClientCreateReq clientCreateReq){
+        System.out.println(clientCreateReq.toString());
+
+        String xmlResponse =
+                "<?xml version=\"1.0\" encoding=\"utf-8\" ?>" +
+                "<XML>" +
+                "<mBilling Version=\"1.0\">" +
+                "<STAN>" + clientCreateReq.getSTAN() + "</STAN>" +
+                "<Response>OK</Response>" +
+                "<Payment>" +
+                "<RRN>" + clientCreateReq.getRRN() + "</RRN>" +
+                "<Date>" + clientCreateReq.getDATE() + "</Date>" +
+                "<Time>" + clientCreateReq.getTIME() + "</Time>" +
+                "<Account>1</Account>" +
+                "<Phone>" + clientCreateReq.getPHONE() + "</Phone>" +
+                "<Amount>" + clientCreateReq.getAMOUNT() + "</Amount>" +
+                "<Currency>" + clientCreateReq.getCURRENCY() + "</Currency>" +
+                "<Info>Info</Info>" +
+                "</Payment>" +
+                "</mBilling>" +
+                "</XML>";
+
+        return xmlResponse;
+
+    }
+    private String bankPayment(ClientCreateReq clientCreateReq){
+        System.out.println(clientCreateReq.toString());
+
+        String xmlResponse =
+                "<?xml version=\"1.0\" encoding=\"utf-8\" ?>" +
+                        "<XML>" +
+                        "<mBilling Version=\"1.0\">" +
+                        "<STAN>" + clientCreateReq.getSTAN() + "</STAN>" +
+                        "<Response>OK</Response>" +
+                        "<Payment>" +
+                        "<RRN>" + clientCreateReq.getRRN() + "</RRN>" +
+                        "<Date>" + clientCreateReq.getDATE() + "</Date>" +
+                        "<Time>" + clientCreateReq.getTIME() + "</Time>" +
+                        "<Account>1</Account>" +
+                        "<Phone>" + clientCreateReq.getPHONE() + "</Phone>" +
+                        "<Amount>" + clientCreateReq.getAMOUNT() + "</Amount>" +
+                        "<Currency>" + clientCreateReq.getCURRENCY() + "</Currency>" +
+                        "<Info>Info</Info>" +
+                        "</Payment>" +
+                        "</mBilling>" +
+                        "</XML>";
+
+        return xmlResponse;
+
+    }
+    private String getPaymentStatus(ClientCreateReq clientCreateReq){
+        System.out.println(clientCreateReq.toString());
+
+        String xmlResponse =
+                "<?xml version=\"1.0\" encoding=\"utf-8\" ?>" +
+                        "<XML>" +
+                        "<mBilling Version=\"1.0\">" +
+                        "<STAN>" + clientCreateReq.getSTAN() + "</STAN>" +
+                        "<Response>OK</Response>" +
+                        "<getPaymentStatus>" +
+                        "<RRN>" + clientCreateReq.getRRN() + "</RRN>" +
+                        "<Date>" + clientCreateReq.getDATE() + "</Date>" +
+                        "<Time>" + clientCreateReq.getTIME() + "</Time>" +
+                        "<Account>1</Account>" +
+                        "<Phone>" + clientCreateReq.getPHONE() + "</Phone>" +
+                        "<Amount>" + clientCreateReq.getAMOUNT() + "</Amount>" +
+                        "<Currency>" + clientCreateReq.getCURRENCY() + "</Currency>" +
+                        "<Info>Info</Info>" +
+                        "</getPaymentStatus>" +
+                        "</mBilling>" +
+                        "</XML>";
+
+        return xmlResponse;
     }
 }
 
+
+
+
+
+//@PostMapping("/index.rb")
+//public void ToGateway(Model model, ClientCreateReq clientCreateReq ){
+//    model.addAttribute("clientReq", clientCreateReq);
+//
+//    String url = "http://localhost:8080/api/dvb";
+//
+//    var headers = new HttpHeaders();
+//    headers.setContentType(MediaType.APPLICATION_JSON);
+//
+//    HttpEntity<ClientCreateReq> requestEntity = new HttpEntity<>(clientCreateReq, headers);
+//
+//    String response = restTemplate.postForObject(url, requestEntity, String.class);
+//
+//}

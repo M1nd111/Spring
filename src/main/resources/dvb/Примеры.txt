@@ -1,0 +1,159 @@
+bank_account
+bank_payment
+getPaymentStatus
+
+
+/cgi-bin/QIWI_XML/index.rb?function=bank_account&STAN=578449&RRN=tibank111000112011&SID=14783997013&PCODE=QW_BEE&PHONE=9031234567&AMOUNT=21.23&CURRENCY=RUB&с=88888001&DATE=20231129&TIME=121009
+/cgi-bin/QIWI_XML/index.rb?function=bank_payment&STAN=578449&RRN=tibank111000112011&SID=14783997013&PCODE=QW_BEE&PHONE=9031234567&AMOUNT=21.23&CURRENCY=RUB&TERMINAL=88888001&DATE=20231129&TIME=121009
+/cgi-bin/QIWI_XML/index.rb?function=getPaymentStatus&STAN=578449&RRN=tibank111000112011&SID=14783997013&PCODE=QW_BEE&PHONE=9031234567&AMOUNT=21.23&CURRENCY=RUB&TERMINAL=88888001&DATE=20231129&TIME=121009
+
+function    -   String
+STAN        -   String
+RRN         -   String
+SID         -   String
+PCODE       -   String
+PHONE       -   String
+AMOUNT      -   String
+CURRENCY    -   String
+TERMINAL    -   String
+DATE        -   String
+TIME        -   String
+
+
+/cgi-bin/QIWI_XML/index.rb
+                            ?function=bank_account
+                            &STAN=578449
+                            &RRN=tibank111000112011
+                            &SID=14783997013
+                            &PCODE=QW_BEE
+                            &PHONE=9031234567
+                            &AMOUNT=21.23
+                            &CURRENCY=RUB
+                            &TERMINAL=88888001
+                            &DATE=20231129
+                            &TIME=121009
+
+
+пример:
+1 bank_account - авторизация платежа
+/cgi-bin/QIWI_XML/index.rb?function=bank_account&STAN=578449&RRN=tibank111000112011&SID=14783997013&PCODE=QW_BEE&PHONE=9031234567&AMOUNT=21.23&CURRENCY=RUB&TERMINAL=88888001&DATE=20231129&TIME=121009
+
+<?xml version="1.0" encoding="utf-8" ?> 
+<XML>
+  <mBilling Version="1.0">
+  <STAN>578449</STAN>
+  <Response>OK</Response> 
+  <AccountInfo>
+    <RRN>tibank111000112011</RRN> 
+    <Date>20231129</Date> 
+    <Time>121009</Time> 
+    <Account>1</Account> 
+    <Phone>9031234567</Phone> 
+    <Amount>21.23</Amount> 
+    <Currency>RUB</Currency> 
+    <Info>Info</Info> 
+  </AccountInfo>
+  </mBilling>
+</XML>
+
+2 bank_payment - подтверждение платежа
+/cgi-bin/QIWI_XML/index.rb?function=bank_payment&STAN=578449&RRN=tibank111000112011&SID=14783997013&PCODE=QW_BEE&PHONE=9031234567&AMOUNT=21.23&CURRENCY=RUB&TERMINAL=88888001&DATE=20231129&TIME=121009
+
+Возможные ответы:
+2.1 Платёж успешно проведён:
+
+<?xml version="1.0" encoding="utf-8" ?> 
+<XML>
+  <mBilling Version="1.0">
+  <STAN>578449</STAN> 
+  <Response>OK</Response> 
+  <Payment>
+    <RRN>tibank111000112011</RRN> 
+    <Date>20231129</Date> 
+    <Time>121009</Time> 
+    <Account>1</Account> 
+    <Phone>9031234567</Phone> 
+    <Amount>21.23</Amount> 
+    <Currency>RUB</Currency> 
+    <Info>Info</Info> 
+  </Payment>
+  </mBilling>
+</XML>
+
+2.2 Проведение платежа не окончено, нужно уточнить статус платежа (getPaymentStatus)
+
+<?xml version="1.0" encoding="utf-8" ?> 
+<XML>
+  <mBilling Version="1.0">
+    <STAN>578449</STAN> 
+    <Response>PROCESSING</Response> 
+    <Error>0-Error(проведение платежа не окончено)</Error> 
+  </mBilling>
+</XML>
+
+3 getPaymentStatus - получение статуса платежа
+/cgi-bin/QIWI_XML/index.rb?function=getPaymentStatus&STAN=578449&RRN=tibank111000112011&SID=14783997013&PCODE=QW_BEE&PHONE=9031234567&AMOUNT=21.23&CURRENCY=RUB&TERMINAL=88888001&DATE=20231129&TIME=121009
+
+<?xml version="1.0" encoding="utf-8" ?> 
+<XML>
+  <mBilling Version="1.0">
+    <STAN>578449</STAN> 
+    <Response>OK</Response> 
+    <getPaymentStatus>
+      <RRN>tibank111000112011</RRN> 
+      <Date>20231129</Date> 
+      <Time>121009</Time> 
+      <Account>1</Account> 
+      <Phone>9031234567</Phone> 
+      <Amount>21.23</Amount> 
+      <Currency>RUB</Currency> 
+      <Info>Info</Info> 
+    </getPaymentStatus>
+  </mBilling>
+</XML>
+
+2) Варианты ответа на запрос getPaymentStatus:
+
+<?xml version="1.0" encoding="utf-8" ?> 
+<XML>
+  <mBilling Version="1.0">
+    <STAN>578449</STAN> 
+    <Response>ERROR</Response> 
+    <Error>210 - Нет такой транзакции в базе</Error> 
+  </mBilling>
+</XML>
+
+<?xml version="1.0" encoding="utf-8" ?> 
+<XML>
+  <mBilling Version="1.0">
+    <STAN>578449</STAN> 
+    <Response>PROCESSING</Response> 
+    <Error>Error(проведение платежа не окончено)</Error> 
+  </mBilling>
+</XML>
+
+
+Запрос bank_payment не отправляли:
+
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<XML>
+  <mBilling Version="1.0">
+    <STAN>578449</STAN>
+    <Response>ERROR</Response>
+    <Error>Платёж авторизован (только bank_account)</Error>
+  </mBilling>
+</XML>
+
+
+    2 bank_payment - подтверждение платежа
+    2.2 Проведение платежа не окончено, нужно уточнить статус платежа (getPaymentStatus)
+
+
+<?xml version="1.0" encoding="utf-8" ?> 
+<XML>
+  <mBilling Version="1.0">
+    <STAN>578449</STAN> 
+    <Response>PROCESSING</Response> 
+    <Error>Error(проведение платежа не окончено)</Error> 
+  </mBilling>
+</XML>
