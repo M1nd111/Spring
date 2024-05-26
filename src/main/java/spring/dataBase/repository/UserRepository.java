@@ -2,21 +2,15 @@ package spring.dataBase.repository;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Slice;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.stereotype.Repository;
-import spring.dataBase.repository.entity.Company;
-import spring.dataBase.repository.entity.Role;
 import spring.dataBase.repository.entity.User;
 import spring.dto.IPersonalInfo;
-import spring.dto.PersonalInfo;
-import spring.dto.UserFilter;
 
-import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 
@@ -43,7 +37,7 @@ public interface UserRepository extends JpaRepository<User, Long> , QuerydslPred
 //    nativeQuery = true)
 //    List<User> findAllByUsername(String username);
 
-    User findByUsername(String username);
+     Optional<User> findByUsername(String username);
 
     @Query(
             "select u from User u where u.firstname like %:firstname% or u.lastname like %:lastname%"

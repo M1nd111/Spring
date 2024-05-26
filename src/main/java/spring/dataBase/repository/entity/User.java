@@ -33,8 +33,9 @@ public class User implements BaseEntity<Long> {
     private String lastname;
 
 
-//    @Enumerated(EnumType.STRING)
-    private String role;
+    @Enumerated(EnumType.STRING)
+    @Column(name = "role")
+    private Role role;
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "company_id")
@@ -42,7 +43,11 @@ public class User implements BaseEntity<Long> {
 
     private String image;
 
+    private String password;
+
     @Builder.Default
     @OneToMany(mappedBy = "user")
     private List<UserChat> usersChats = new ArrayList<>();
+
+
 }

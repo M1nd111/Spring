@@ -7,6 +7,7 @@ import jakarta.validation.constraints.Size;
 import lombok.Value;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.multipart.MultipartFile;
+import spring.dataBase.repository.entity.Role;
 
 import java.time.LocalDate;
 
@@ -23,7 +24,7 @@ public class UserCreateDto {
     String firstname;
     @NotNull
     String lastname;
-    String roles;
+    Role roles;
     Integer companyId;
     MultipartFile image;
 }

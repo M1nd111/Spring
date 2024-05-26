@@ -20,15 +20,23 @@
 
 </head>
 <body>
-<div class="brd">
-    <form action="/login" method="post">
 
-        <label for="email">Email:
-            <input type="text" name="email" id="email">
+<div class="brd">
+
+    <div th:insert="~{fragment :: locale}"></div>
+
+    <form th:action="@{/login}" method="post">
+<!--        <input type="hidden" -->
+<!--               th:name="${_csrf.parameterName}" -->
+<!--               th:value="${_csrf.token}">-->
+
+
+        <label for="username"><span th:text="#{login.username}">Username:</span>
+            <input type="text" name="username" id="username">
         </label><br/><br/>
 
-        <label for="pwd">Password:
-            <input type="password" name="pwd" id="pwd">
+        <label for="password"><span th:text="#{login.password}">Password:</span>
+            <input type="password" name="password" id="password">
         </label><br/><br/>
 
         <button type="submit">Login</button> <br/><br/>
@@ -37,13 +45,13 @@
             <button type="button">Register</button>
         </a>
 
-        <th:block th:if="${param.error != null}">
-            <div style="color: red">
-                <span>Email or password is not correct</span>
-            </div>
-        </th:block>
-
     </form>
+
+    <th:block th:if="${param.error}">
+        <div style="color: red">
+            <span>Email or password is not correct</span>
+        </div>
+    </th:block>
 </div>
 </body>
 </html>

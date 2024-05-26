@@ -7,6 +7,9 @@ import lombok.SneakyThrows;
 import lombok.ToString;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
@@ -22,6 +25,7 @@ import spring.dto.UserReadDto;
 import spring.mapper.UserCreateMapper;
 import spring.mapper.UserReadMapper;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -33,7 +37,7 @@ import static spring.dataBase.repository.entity.QUser.user;
 @ToString
 @Service
 @Transactional(readOnly = true)
-public class UserService {
+public class UserService implements UserDetailsService {
     private final UserRepository userRepository;
     private final CompanyRepository companyRepository;
     private final CompanyService companyService;
@@ -130,6 +134,15 @@ public class UserService {
         return userRepository.findAll(predicate, pageable).map(userReadMapper::map);
     }
 
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        return userRepository.findByUsername(username).map(user ->
+                new org.springframework.security.core.userdetails.User(
+                        user.getUsername(),
+                        user.getPassword(),
+                        Collections.singleton(user.getRole())
+                )).orElseThrow(() -> new UsernameNotFoundException("Failed to find user" + username));
+    }
 }
 
 /*

@@ -21,7 +21,7 @@
 </head>
 <body>
 <div class="brd">
-
+    <div th:insert="~{fragment :: header}"></div>
     <form th:action="@{/users/{userId}/update(userId=${user.id})}" enctype="multipart/form-data" method="post" th:object="${user}">
 
         <label for="username">Username:

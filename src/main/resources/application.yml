@@ -42,6 +42,8 @@ spring:
         format_sql: true
         hbm2ddl:
           auto: validate
+  messages:
+    basename: messages
 app:
   image:
     bucket: C:\Users\maks_\IdeaProjects\SpingStart\images

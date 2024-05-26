@@ -3,6 +3,11 @@ package spring.http.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.annotation.CurrentSecurityContext;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -11,7 +16,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import spring.dataBase.repository.UserRepository;
 import spring.dataBase.repository.entity.Role;
-import spring.dataBase.repository.entity.User;
 import spring.dto.PageResponse;
 import spring.dto.UserCreateDto;
 import spring.dto.UserFilter;
@@ -43,8 +47,13 @@ public class UserController {
         return "user/users";
     }*/
 
+    @PreAuthorize("hasAnyAuthority('ADMIN')")
     @GetMapping("/{id}")
-    public String findById(Model model, @PathVariable("id") Long id){
+    public String findById(
+            Model model,
+            @PathVariable("id") Long id,
+            @CurrentSecurityContext SecurityContext securityContext,
+            @AuthenticationPrincipal UserDetails userDetails){
         UserReadDto user = userService.findById(id).orElseThrow(() -> new RuntimeException("User not found"));
         model.addAttribute("user", user);
         model.addAttribute("roles", Role.values());
@@ -62,8 +71,8 @@ public class UserController {
             return "redirect:/users/registration";
         }
         userService.save(userDto);
-        User user = userRepository.findByUsername(userDto.getUsername());
-        return "redirect:/users/" + user.getId();
+        var user = userRepository.findByUsername(userDto.getUsername());
+        return "redirect:/users/" + user.get().getId();
     }
     @PostMapping("/{id}/update")
     public String update(@PathVariable("id") Long id, @ModelAttribute @Validated UserCreateDto userReadDto){
