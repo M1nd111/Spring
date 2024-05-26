@@ -84,7 +84,7 @@ public class UserService implements UserDetailsService {
         return true;
     }
     @Transactional
-    public UserReadDto update(Long id, UserCreateDto entity) {
+    public UserReadDto update(Integer id, UserCreateDto entity) {
         User user = userCreateMapper.map(entity);
         user.setId(id);
 

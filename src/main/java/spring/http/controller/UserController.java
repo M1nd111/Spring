@@ -75,7 +75,7 @@ public class UserController {
         return "redirect:/users/" + user.get().getId();
     }
     @PostMapping("/{id}/update")
-    public String update(@PathVariable("id") Long id, @ModelAttribute @Validated UserCreateDto userReadDto){
+    public String update(@PathVariable("id") Integer id, @ModelAttribute @Validated UserCreateDto userReadDto){
         System.out.println(userReadDto);
         userService.update(id, userReadDto);
         return "redirect:/users/{id}";

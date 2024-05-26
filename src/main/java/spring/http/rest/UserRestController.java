@@ -46,7 +46,7 @@ public class UserRestController {
     }
 
     @PutMapping("/{id}")
-    public UserReadDto update(@PathVariable("id") Long id, @Validated  @RequestBody UserCreateDto userReadDto){
+    public UserReadDto update(@PathVariable("id") Integer id, @Validated  @RequestBody UserCreateDto userReadDto){
         return userService.update(id, userReadDto);
     }
     @DeleteMapping ("/{id}")

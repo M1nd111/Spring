@@ -1,404 +1,187 @@
-2024-05-26T11:03:04.204+10:00  INFO 13804 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 13804 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
-2024-05-26T11:03:04.222+10:00  INFO 13804 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
-2024-05-26T11:03:05.736+10:00  INFO 13804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-26T11:03:05.822+10:00  INFO 13804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
-2024-05-26T11:03:07.073+10:00  INFO 13804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-26T11:03:07.100+10:00  INFO 13804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-26T11:03:07.101+10:00  INFO 13804 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-26T11:03:07.622+10:00  INFO 13804 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2024-05-26T11:03:07.633+10:00  INFO 13804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-26T11:03:07.634+10:00  INFO 13804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3306 ms
-2024-05-26T11:03:07.987+10:00  INFO 13804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-26T11:03:08.137+10:00  INFO 13804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-26T11:03:08.208+10:00  INFO 13804 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-26T11:03:08.728+10:00  INFO 13804 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-26T11:03:08.776+10:00  INFO 13804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-26T11:03:09.431+10:00  INFO 13804 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6edd4fe2
-2024-05-26T11:03:09.436+10:00  INFO 13804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-26T11:03:11.774+10:00  INFO 13804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-26T11:03:12.278+10:00  INFO 13804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T11:03:12.294+10:00  INFO 13804 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T11:03:12.794+10:00  INFO 13804 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-26T11:03:13.166+10:00  INFO 13804 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T11:03:13.167+10:00  INFO 13804 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T11:03:14.153+10:00  INFO 13804 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@55eb9b2c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c9f9fe3, org.springframework.security.web.context.SecurityContextHolderFilter@f5ee0d8, org.springframework.security.web.header.HeaderWriterFilter@4054f861, org.springframework.web.filter.CorsFilter@33e888d4, org.springframework.security.web.csrf.CsrfFilter@44a3b4d9, org.springframework.security.web.authentication.logout.LogoutFilter@33a8f3e7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@12cb9eda, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2caf282e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1f93cdc0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4473bbc1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23247b4c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33d9904f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@162807e5, org.springframework.security.web.access.ExceptionTranslationFilter@a355b, org.springframework.security.web.access.intercept.AuthorizationFilter@6c648d16]
-2024-05-26T11:03:14.256+10:00  INFO 13804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-05-26T11:03:14.265+10:00  INFO 13804 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 10.789 seconds (process running for 11.659)
-2024-05-26T11:03:14.277+10:00  INFO 13804 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T11:03:14.279+10:00  INFO 13804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-26T11:03:14.300+10:00  INFO 13804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-26T14:08:48.038+10:00  INFO 18148 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 18148 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
-2024-05-26T14:08:48.040+10:00  INFO 18148 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
-2024-05-26T14:08:49.276+10:00  INFO 18148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-26T14:08:49.354+10:00  INFO 18148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
-2024-05-26T14:08:49.926+10:00  INFO 18148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-26T14:08:49.938+10:00  INFO 18148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-26T14:08:49.939+10:00  INFO 18148 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-26T14:08:50.183+10:00  INFO 18148 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2024-05-26T14:08:50.187+10:00  INFO 18148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-26T14:08:50.187+10:00  INFO 18148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2068 ms
-2024-05-26T14:08:50.330+10:00  INFO 18148 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-26T14:08:50.368+10:00  INFO 18148 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-26T14:08:50.394+10:00  INFO 18148 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-26T14:08:50.581+10:00  INFO 18148 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-26T14:08:50.603+10:00  INFO 18148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-26T14:08:50.924+10:00  INFO 18148 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34070bd2
-2024-05-26T14:08:50.926+10:00  INFO 18148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-26T14:08:52.158+10:00  INFO 18148 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-26T14:08:52.436+10:00  INFO 18148 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T14:08:52.455+10:00  INFO 18148 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T14:08:52.783+10:00  INFO 18148 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-26T14:08:53.077+10:00  INFO 18148 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T14:08:53.077+10:00  INFO 18148 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T14:08:53.764+10:00  INFO 18148 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@16b35f2f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@383e8d4f, org.springframework.security.web.context.SecurityContextHolderFilter@194e116d, org.springframework.security.web.header.HeaderWriterFilter@59fe8d94, org.springframework.web.filter.CorsFilter@3df9b24b, org.springframework.security.web.csrf.CsrfFilter@38c6f088, org.springframework.security.web.authentication.logout.LogoutFilter@457512b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@16e3a461, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4819a11f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@a355b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@40fdcbd5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@93231b2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@cf97391, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c4c4852, org.springframework.security.web.access.ExceptionTranslationFilter@3d49b00e, org.springframework.security.web.access.intercept.AuthorizationFilter@44a3b4d9]
-2024-05-26T14:08:53.833+10:00  INFO 18148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-05-26T14:08:53.840+10:00  INFO 18148 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 6.401 seconds (process running for 7.367)
-2024-05-26T14:08:57.196+10:00  INFO 18148 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-26T14:08:57.197+10:00  INFO 18148 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-26T14:08:57.199+10:00  INFO 18148 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2024-05-26T14:09:10.314+10:00  INFO 18148 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T14:09:10.317+10:00  INFO 18148 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-26T14:09:10.352+10:00  INFO 18148 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-26T14:09:19.553+10:00  INFO 3520 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 3520 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
-2024-05-26T14:09:19.555+10:00  INFO 3520 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
-2024-05-26T14:09:20.523+10:00  INFO 3520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-26T14:09:20.598+10:00  INFO 3520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
-2024-05-26T14:09:21.128+10:00  INFO 3520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-26T14:09:21.137+10:00  INFO 3520 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-26T14:09:21.137+10:00  INFO 3520 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-26T14:09:21.369+10:00  INFO 3520 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2024-05-26T14:09:21.375+10:00  INFO 3520 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-26T14:09:21.375+10:00  INFO 3520 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1755 ms
-2024-05-26T14:09:21.509+10:00  INFO 3520 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-26T14:09:21.555+10:00  INFO 3520 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-26T14:09:21.579+10:00  INFO 3520 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-26T14:09:21.742+10:00  INFO 3520 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-26T14:09:21.762+10:00  INFO 3520 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-26T14:09:22.007+10:00  INFO 3520 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6dde1bf5
-2024-05-26T14:09:22.009+10:00  INFO 3520 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-26T14:09:23.022+10:00  INFO 3520 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-26T14:09:23.279+10:00  INFO 3520 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T14:09:23.304+10:00  INFO 3520 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T14:09:23.557+10:00  INFO 3520 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-26T14:09:23.888+10:00  INFO 3520 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T14:09:23.889+10:00  INFO 3520 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T14:09:24.318+10:00  INFO 3520 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@200cdb37, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@523d6b45, org.springframework.security.web.context.SecurityContextHolderFilter@62f25e32, org.springframework.security.web.header.HeaderWriterFilter@13e6b26c, org.springframework.web.filter.CorsFilter@6e8e1a98, org.springframework.security.web.csrf.CsrfFilter@3770dd80, org.springframework.security.web.authentication.logout.LogoutFilter@66049424, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5e5d41dc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48adb967, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@136cd71b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23f6a18d, org.springframework.security.web.access.ExceptionTranslationFilter@19e86461, org.springframework.security.web.access.intercept.AuthorizationFilter@58968733]
-2024-05-26T14:09:24.702+10:00  INFO 3520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-05-26T14:09:24.710+10:00  INFO 3520 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 5.77 seconds (process running for 6.692)
-2024-05-26T14:09:30.610+10:00  INFO 3520 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-26T14:09:30.611+10:00  INFO 3520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-26T14:09:30.612+10:00  INFO 3520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-05-26T14:10:35.955+10:00  INFO 3520 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T14:10:35.958+10:00  INFO 3520 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-26T14:10:35.969+10:00  INFO 3520 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-26T14:10:44.168+10:00  INFO 7688 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 7688 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
-2024-05-26T14:10:44.170+10:00  INFO 7688 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
-2024-05-26T14:10:44.944+10:00  INFO 7688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-26T14:10:45.004+10:00  INFO 7688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
-2024-05-26T14:10:45.481+10:00  INFO 7688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-26T14:10:45.489+10:00  INFO 7688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-26T14:10:45.490+10:00  INFO 7688 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-26T14:10:45.731+10:00  INFO 7688 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2024-05-26T14:10:45.738+10:00  INFO 7688 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-26T14:10:45.739+10:00  INFO 7688 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1519 ms
-2024-05-26T14:10:45.905+10:00  INFO 7688 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-26T14:10:45.960+10:00  INFO 7688 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-26T14:10:45.995+10:00  INFO 7688 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-26T14:10:46.152+10:00  INFO 7688 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-26T14:10:46.183+10:00  INFO 7688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-26T14:10:46.460+10:00  INFO 7688 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26bce60d
-2024-05-26T14:10:46.462+10:00  INFO 7688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-26T14:10:47.536+10:00  INFO 7688 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-26T14:10:47.807+10:00  INFO 7688 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T14:10:47.818+10:00  INFO 7688 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T14:10:48.119+10:00  INFO 7688 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-26T14:10:48.389+10:00  INFO 7688 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T14:10:48.390+10:00  INFO 7688 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T14:10:49.069+10:00  INFO 7688 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@a355b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c4c4852, org.springframework.security.web.context.SecurityContextHolderFilter@cf97391, org.springframework.security.web.header.HeaderWriterFilter@194e116d, org.springframework.web.filter.CorsFilter@4054f861, org.springframework.security.web.csrf.CsrfFilter@70d28000, org.springframework.security.web.authentication.logout.LogoutFilter@531245fe, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@72dc0d72, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@57a94530, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@30cf61ca, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@16b35f2f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5cf21908, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44d51c85, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61be2a65, org.springframework.security.web.access.ExceptionTranslationFilter@479f5c35, org.springframework.security.web.access.intercept.AuthorizationFilter@2b0061b7]
-2024-05-26T14:10:49.136+10:00  INFO 7688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-05-26T14:10:49.143+10:00  INFO 7688 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 5.458 seconds (process running for 6.311)
-2024-05-26T14:10:59.650+10:00  INFO 7688 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-26T14:10:59.651+10:00  INFO 7688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-26T14:10:59.652+10:00  INFO 7688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-05-26T14:11:17.346+10:00  INFO 7688 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T14:11:17.349+10:00  INFO 7688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-26T14:11:17.360+10:00  INFO 7688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-26T14:11:26.166+10:00  INFO 14224 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 14224 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
-2024-05-26T14:11:26.168+10:00  INFO 14224 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
-2024-05-26T14:11:27.261+10:00  INFO 14224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-26T14:11:27.327+10:00  INFO 14224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
-2024-05-26T14:11:27.963+10:00  INFO 14224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-26T14:11:27.973+10:00  INFO 14224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-26T14:11:27.973+10:00  INFO 14224 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-26T14:11:28.222+10:00  INFO 14224 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2024-05-26T14:11:28.228+10:00  INFO 14224 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-26T14:11:28.229+10:00  INFO 14224 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1983 ms
-2024-05-26T14:11:28.358+10:00  INFO 14224 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-26T14:11:28.400+10:00  INFO 14224 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-26T14:11:28.433+10:00  INFO 14224 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-26T14:11:28.611+10:00  INFO 14224 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-26T14:11:28.628+10:00  INFO 14224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-26T14:11:28.884+10:00  INFO 14224 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b56b517
-2024-05-26T14:11:28.886+10:00  INFO 14224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-26T14:11:29.971+10:00  INFO 14224 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-26T14:11:30.299+10:00  INFO 14224 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T14:11:30.316+10:00  INFO 14224 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T14:11:30.602+10:00  INFO 14224 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-26T14:11:30.907+10:00  INFO 14224 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T14:11:30.908+10:00  INFO 14224 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T14:11:31.380+10:00  INFO 14224 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5841716b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@550a78ed, org.springframework.security.web.context.SecurityContextHolderFilter@c9f1951, org.springframework.security.web.header.HeaderWriterFilter@5ab780ce, org.springframework.web.filter.CorsFilter@fbb39ea, org.springframework.security.web.csrf.CsrfFilter@31829b82, org.springframework.security.web.authentication.logout.LogoutFilter@c0d114b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7dcbcede, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3532f633, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d49bd08, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b8f6500, org.springframework.security.web.access.ExceptionTranslationFilter@52b7d2d3, org.springframework.security.web.access.intercept.AuthorizationFilter@3f2cc8ab]
-2024-05-26T14:11:31.791+10:00  INFO 14224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-05-26T14:11:31.800+10:00  INFO 14224 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 6.413 seconds (process running for 7.688)
-2024-05-26T14:11:32.029+10:00  INFO 14224 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-26T14:11:32.029+10:00  INFO 14224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-26T14:11:32.030+10:00  INFO 14224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-05-26T14:12:39.287+10:00  INFO 14224 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T14:12:39.290+10:00  INFO 14224 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-26T14:12:39.311+10:00  INFO 14224 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-26T15:37:00.323+10:00  INFO 8724 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 8724 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
-2024-05-26T15:37:00.325+10:00  INFO 8724 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
-2024-05-26T15:37:01.350+10:00  INFO 8724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-26T15:37:01.413+10:00  INFO 8724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
-2024-05-26T15:37:01.986+10:00  INFO 8724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-26T15:37:01.996+10:00  INFO 8724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-26T15:37:01.996+10:00  INFO 8724 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-26T15:37:02.233+10:00  INFO 8724 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2024-05-26T15:37:02.238+10:00  INFO 8724 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-26T15:37:02.238+10:00  INFO 8724 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1844 ms
-2024-05-26T15:37:02.396+10:00  INFO 8724 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-26T15:37:02.435+10:00  INFO 8724 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-26T15:37:02.468+10:00  INFO 8724 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-26T15:37:02.635+10:00  INFO 8724 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-26T15:37:02.652+10:00  INFO 8724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-26T15:37:02.899+10:00  INFO 8724 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15ad5acb
-2024-05-26T15:37:02.901+10:00  INFO 8724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-26T15:37:03.984+10:00  INFO 8724 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-26T15:37:04.252+10:00  INFO 8724 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:37:04.277+10:00  INFO 8724 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:37:04.552+10:00  INFO 8724 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-26T15:37:04.832+10:00  INFO 8724 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:37:04.833+10:00  INFO 8724 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:37:05.282+10:00  INFO 8724 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32828624, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29f94912, org.springframework.security.web.context.SecurityContextHolderFilter@1926a40f, org.springframework.security.web.header.HeaderWriterFilter@7e9e73, org.springframework.web.filter.CorsFilter@1e299e3f, org.springframework.security.web.csrf.CsrfFilter@200cdb37, org.springframework.security.web.authentication.logout.LogoutFilter@1bb6b0f3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@69924070, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68fac558, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1822f675, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11bb0655, org.springframework.security.web.access.ExceptionTranslationFilter@16c2c396, org.springframework.security.web.access.intercept.AuthorizationFilter@195267c8]
-2024-05-26T15:37:05.674+10:00  INFO 8724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-05-26T15:37:05.681+10:00  INFO 8724 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 5.927 seconds (process running for 6.755)
-2024-05-26T15:37:19.150+10:00  INFO 8724 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-26T15:37:19.151+10:00  INFO 8724 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-26T15:37:19.152+10:00  INFO 8724 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-05-26T15:39:22.739+10:00  INFO 8724 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:39:22.740+10:00  INFO 8724 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-26T15:39:22.758+10:00  INFO 8724 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-26T15:39:29.559+10:00  INFO 7912 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 7912 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
-2024-05-26T15:39:29.562+10:00  INFO 7912 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
-2024-05-26T15:39:30.622+10:00  INFO 7912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-26T15:39:30.692+10:00  INFO 7912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
-2024-05-26T15:39:31.235+10:00  INFO 7912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-26T15:39:31.245+10:00  INFO 7912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-26T15:39:31.245+10:00  INFO 7912 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-26T15:39:31.464+10:00  INFO 7912 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2024-05-26T15:39:31.468+10:00  INFO 7912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-26T15:39:31.469+10:00  INFO 7912 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1830 ms
-2024-05-26T15:39:31.629+10:00  INFO 7912 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-26T15:39:31.670+10:00  INFO 7912 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-26T15:39:31.708+10:00  INFO 7912 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-26T15:39:31.868+10:00  INFO 7912 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-26T15:39:31.894+10:00  INFO 7912 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-26T15:39:32.150+10:00  INFO 7912 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27053257
-2024-05-26T15:39:32.152+10:00  INFO 7912 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-26T15:39:33.208+10:00  INFO 7912 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-26T15:39:33.479+10:00  INFO 7912 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:39:33.494+10:00  INFO 7912 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:39:33.822+10:00  INFO 7912 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-26T15:39:34.104+10:00  INFO 7912 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:39:34.104+10:00  INFO 7912 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:39:34.537+10:00  INFO 7912 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e654c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@720f0fa2, org.springframework.security.web.context.SecurityContextHolderFilter@1cc07127, org.springframework.security.web.header.HeaderWriterFilter@42ffa0c8, org.springframework.web.filter.CorsFilter@2dc199d4, org.springframework.security.web.csrf.CsrfFilter@7dcbcede, org.springframework.security.web.authentication.logout.LogoutFilter@2cfde5a4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1bb6b0f3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b83b137, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4098a6b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@84f0686, org.springframework.security.web.access.ExceptionTranslationFilter@65e503a7, org.springframework.security.web.access.intercept.AuthorizationFilter@72e89ce2]
-2024-05-26T15:39:34.917+10:00  INFO 7912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-05-26T15:39:34.925+10:00  INFO 7912 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 5.98 seconds (process running for 6.834)
-2024-05-26T15:39:48.002+10:00  INFO 7912 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-26T15:39:48.003+10:00  INFO 7912 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-26T15:39:48.004+10:00  INFO 7912 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-05-26T15:40:12.245+10:00  INFO 7912 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:40:12.246+10:00  INFO 7912 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-26T15:40:12.263+10:00  INFO 7912 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-26T15:40:21.771+10:00  INFO 1980 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 1980 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
-2024-05-26T15:40:21.773+10:00  INFO 1980 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
-2024-05-26T15:40:22.648+10:00  INFO 1980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-26T15:40:22.727+10:00  INFO 1980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
-2024-05-26T15:40:23.257+10:00  INFO 1980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-26T15:40:23.266+10:00  INFO 1980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-26T15:40:23.266+10:00  INFO 1980 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-26T15:40:23.497+10:00  INFO 1980 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2024-05-26T15:40:23.501+10:00  INFO 1980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-26T15:40:23.501+10:00  INFO 1980 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1670 ms
-2024-05-26T15:40:23.656+10:00  INFO 1980 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-26T15:40:23.729+10:00  INFO 1980 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-26T15:40:23.766+10:00  INFO 1980 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-26T15:40:24.027+10:00  INFO 1980 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-26T15:40:24.052+10:00  INFO 1980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-26T15:40:24.331+10:00  INFO 1980 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bca8eaf
-2024-05-26T15:40:24.333+10:00  INFO 1980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-26T15:40:25.497+10:00  INFO 1980 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-26T15:40:25.754+10:00  INFO 1980 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:40:25.768+10:00  INFO 1980 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:40:26.009+10:00  INFO 1980 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-26T15:40:26.324+10:00  INFO 1980 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:40:26.326+10:00  INFO 1980 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:40:26.856+10:00  INFO 1980 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7b6846c6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71103416, org.springframework.security.web.context.SecurityContextHolderFilter@5f4ebecd, org.springframework.security.web.header.HeaderWriterFilter@23867b97, org.springframework.web.filter.CorsFilter@503e1cd9, org.springframework.security.web.csrf.CsrfFilter@5841716b, org.springframework.security.web.authentication.logout.LogoutFilter@ffa60c9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7e654c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39f826ae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c50ba07, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20b54b6e, org.springframework.security.web.access.ExceptionTranslationFilter@19a652cd, org.springframework.security.web.access.intercept.AuthorizationFilter@2e61695b]
-2024-05-26T15:40:27.374+10:00  INFO 1980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-05-26T15:40:27.383+10:00  INFO 1980 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 6.367 seconds (process running for 7.497)
-2024-05-26T15:46:22.928+10:00  INFO 1980 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:46:22.936+10:00  INFO 1980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-26T15:46:22.946+10:00  INFO 1980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-26T15:46:29.600+10:00  INFO 14940 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 14940 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
-2024-05-26T15:46:29.602+10:00  INFO 14940 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
-2024-05-26T15:46:30.500+10:00  INFO 14940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-26T15:46:30.566+10:00  INFO 14940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
-2024-05-26T15:46:31.240+10:00  INFO 14940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-26T15:46:31.251+10:00  INFO 14940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-26T15:46:31.252+10:00  INFO 14940 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-26T15:46:31.504+10:00  INFO 14940 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2024-05-26T15:46:31.515+10:00  INFO 14940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-26T15:46:31.516+10:00  INFO 14940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1857 ms
-2024-05-26T15:46:31.699+10:00  INFO 14940 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-26T15:46:31.773+10:00  INFO 14940 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-26T15:46:31.823+10:00  INFO 14940 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-26T15:46:32.032+10:00  INFO 14940 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-26T15:46:32.056+10:00  INFO 14940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-26T15:46:32.408+10:00  INFO 14940 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77e730bd
-2024-05-26T15:46:32.411+10:00  INFO 14940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-26T15:46:33.670+10:00  INFO 14940 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-26T15:46:34.183+10:00  INFO 14940 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:46:34.221+10:00  INFO 14940 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:46:34.865+10:00  INFO 14940 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-26T15:46:35.255+10:00  INFO 14940 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:46:35.256+10:00  INFO 14940 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:46:35.864+10:00  INFO 14940 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@646ba7be, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41194707, org.springframework.security.web.context.SecurityContextHolderFilter@87f4794, org.springframework.security.web.header.HeaderWriterFilter@b8f6500, org.springframework.web.filter.CorsFilter@46969355, org.springframework.security.web.csrf.CsrfFilter@2079ce51, org.springframework.security.web.authentication.logout.LogoutFilter@39c78cf9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@339b1c34, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@146b3bc7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@200cdb37, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ab64f66, org.springframework.security.web.access.ExceptionTranslationFilter@550a78ed, org.springframework.security.web.access.intercept.AuthorizationFilter@2cfde5a4]
-2024-05-26T15:46:36.263+10:00  INFO 14940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-05-26T15:46:36.270+10:00  INFO 14940 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 7.226 seconds (process running for 8.002)
-2024-05-26T15:46:36.803+10:00  INFO 14940 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-26T15:46:36.803+10:00  INFO 14940 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-26T15:46:36.806+10:00  INFO 14940 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2024-05-26T15:47:52.209+10:00  INFO 14940 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:47:52.214+10:00  INFO 14940 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-26T15:47:52.225+10:00  INFO 14940 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-26T15:47:59.373+10:00  INFO 2092 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 2092 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
-2024-05-26T15:47:59.375+10:00  INFO 2092 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
-2024-05-26T15:48:00.393+10:00  INFO 2092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-26T15:48:00.463+10:00  INFO 2092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
-2024-05-26T15:48:01.113+10:00  INFO 2092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-26T15:48:01.124+10:00  INFO 2092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-26T15:48:01.125+10:00  INFO 2092 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-26T15:48:01.382+10:00  INFO 2092 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2024-05-26T15:48:01.387+10:00  INFO 2092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-26T15:48:01.387+10:00  INFO 2092 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1927 ms
-2024-05-26T15:48:01.523+10:00  INFO 2092 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-26T15:48:01.579+10:00  INFO 2092 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-26T15:48:01.620+10:00  INFO 2092 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-26T15:48:01.873+10:00  INFO 2092 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-26T15:48:01.893+10:00  INFO 2092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-26T15:48:02.201+10:00  INFO 2092 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@662713b6
-2024-05-26T15:48:02.203+10:00  INFO 2092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-26T15:48:03.477+10:00  INFO 2092 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-26T15:48:03.768+10:00  INFO 2092 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:48:03.790+10:00  INFO 2092 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:48:04.108+10:00  INFO 2092 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-26T15:48:04.436+10:00  INFO 2092 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:48:04.436+10:00  INFO 2092 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:48:04.895+10:00  INFO 2092 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1858f93e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e61695b, org.springframework.security.web.context.SecurityContextHolderFilter@54139bd3, org.springframework.security.web.header.HeaderWriterFilter@65e503a7, org.springframework.web.filter.CorsFilter@7e654c, org.springframework.security.web.csrf.CsrfFilter@766f2d65, org.springframework.security.web.authentication.logout.LogoutFilter@64d19dad, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5a0d25ba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1cc07127, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23867b97, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@720f0fa2, org.springframework.security.web.access.ExceptionTranslationFilter@6e8e1a98, org.springframework.security.web.access.intercept.AuthorizationFilter@28f307ca]
-2024-05-26T15:48:05.266+10:00  INFO 2092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-05-26T15:48:05.275+10:00  INFO 2092 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 6.512 seconds (process running for 7.387)
-2024-05-26T15:48:59.499+10:00  INFO 2092 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-26T15:48:59.499+10:00  INFO 2092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-26T15:48:59.500+10:00  INFO 2092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-05-26T15:50:30.962+10:00  INFO 2092 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:50:30.967+10:00  INFO 2092 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-26T15:50:30.979+10:00  INFO 2092 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-26T15:50:37.860+10:00  INFO 7432 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 7432 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
-2024-05-26T15:50:37.863+10:00  INFO 7432 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
-2024-05-26T15:50:38.951+10:00  INFO 7432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-26T15:50:39.018+10:00  INFO 7432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
-2024-05-26T15:50:39.690+10:00  INFO 7432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-26T15:50:39.706+10:00  INFO 7432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-26T15:50:39.707+10:00  INFO 7432 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-26T15:50:39.971+10:00  INFO 7432 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2024-05-26T15:50:39.976+10:00  INFO 7432 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-26T15:50:39.976+10:00  INFO 7432 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2043 ms
-2024-05-26T15:50:40.120+10:00  INFO 7432 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-26T15:50:40.163+10:00  INFO 7432 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-26T15:50:40.192+10:00  INFO 7432 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-26T15:50:40.418+10:00  INFO 7432 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-26T15:50:40.442+10:00  INFO 7432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-26T15:50:40.754+10:00  INFO 7432 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52d59507
-2024-05-26T15:50:40.757+10:00  INFO 7432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-26T15:50:42.032+10:00  INFO 7432 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-26T15:50:42.319+10:00  INFO 7432 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:50:42.342+10:00  INFO 7432 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:50:42.653+10:00  INFO 7432 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-26T15:50:43.017+10:00  INFO 7432 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:50:43.018+10:00  INFO 7432 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:50:43.612+10:00  INFO 7432 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7b6846c6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71103416, org.springframework.security.web.context.SecurityContextHolderFilter@5f4ebecd, org.springframework.security.web.header.HeaderWriterFilter@23867b97, org.springframework.web.filter.CorsFilter@503e1cd9, org.springframework.security.web.csrf.CsrfFilter@5841716b, org.springframework.security.web.authentication.logout.LogoutFilter@ffa60c9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7e654c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39f826ae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c50ba07, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20b54b6e, org.springframework.security.web.access.ExceptionTranslationFilter@19a652cd, org.springframework.security.web.access.intercept.AuthorizationFilter@2e61695b]
-2024-05-26T15:50:44.023+10:00  INFO 7432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-05-26T15:50:44.032+10:00  INFO 7432 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 7.031 seconds (process running for 8.247)
-2024-05-26T15:50:45.853+10:00  INFO 7432 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-26T15:50:45.854+10:00  INFO 7432 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-26T15:50:45.855+10:00  INFO 7432 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-05-26T15:52:47.878+10:00  INFO 7432 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:52:47.881+10:00  INFO 7432 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-26T15:52:47.898+10:00  INFO 7432 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-26T15:52:54.818+10:00  INFO 7784 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 7784 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
-2024-05-26T15:52:54.820+10:00  INFO 7784 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
-2024-05-26T15:52:55.859+10:00  INFO 7784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-26T15:52:55.939+10:00  INFO 7784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 2 JPA repository interfaces.
-2024-05-26T15:52:56.620+10:00  INFO 7784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-26T15:52:56.629+10:00  INFO 7784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-26T15:52:56.630+10:00  INFO 7784 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-26T15:52:56.879+10:00  INFO 7784 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2024-05-26T15:52:56.885+10:00  INFO 7784 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-26T15:52:56.885+10:00  INFO 7784 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1986 ms
-2024-05-26T15:52:57.053+10:00  INFO 7784 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-26T15:52:57.095+10:00  INFO 7784 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-26T15:52:57.125+10:00  INFO 7784 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-26T15:52:57.295+10:00  INFO 7784 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-26T15:52:57.323+10:00  INFO 7784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-26T15:52:57.587+10:00  INFO 7784 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2792c28
-2024-05-26T15:52:57.588+10:00  INFO 7784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-26T15:52:58.616+10:00  INFO 7784 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-26T15:52:58.885+10:00  INFO 7784 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:52:58.902+10:00  INFO 7784 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:52:59.173+10:00  INFO 7784 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-26T15:52:59.456+10:00  INFO 7784 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:52:59.457+10:00  INFO 7784 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:52:59.948+10:00  INFO 7784 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3fe5c9f1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f7b6b9e, org.springframework.security.web.context.SecurityContextHolderFilter@4a1bb556, org.springframework.security.web.header.HeaderWriterFilter@1ecf19e8, org.springframework.web.filter.CorsFilter@775429c8, org.springframework.security.web.csrf.CsrfFilter@1cc07127, org.springframework.security.web.authentication.logout.LogoutFilter@71103416, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@54fc7fce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@339b1c34, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b4fd31f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7923cb8d, org.springframework.security.web.access.ExceptionTranslationFilter@34883fa2, org.springframework.security.web.access.intercept.AuthorizationFilter@372e01e0]
-2024-05-26T15:53:00.340+10:00  INFO 7784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-05-26T15:53:00.349+10:00  INFO 7784 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 6.218 seconds (process running for 7.194)
-2024-05-26T15:54:52.930+10:00  INFO 7784 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:54:52.945+10:00  INFO 7784 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-26T15:54:52.964+10:00  INFO 7784 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-26T15:54:58.678+10:00  INFO 1132 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 1132 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
-2024-05-26T15:54:58.679+10:00  INFO 1132 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
-2024-05-26T15:54:59.785+10:00  INFO 1132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-26T15:54:59.852+10:00  INFO 1132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
-2024-05-26T15:55:00.557+10:00  INFO 1132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-26T15:55:00.567+10:00  INFO 1132 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-26T15:55:00.568+10:00  INFO 1132 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-26T15:55:00.913+10:00  INFO 1132 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2024-05-26T15:55:00.921+10:00  INFO 1132 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-26T15:55:00.922+10:00  INFO 1132 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2154 ms
-2024-05-26T15:55:01.125+10:00  INFO 1132 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-26T15:55:01.184+10:00  INFO 1132 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-26T15:55:01.213+10:00  INFO 1132 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-26T15:55:01.433+10:00  INFO 1132 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-26T15:55:01.458+10:00  INFO 1132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-26T15:55:01.807+10:00  INFO 1132 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27053257
-2024-05-26T15:55:01.811+10:00  INFO 1132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-26T15:55:03.220+10:00  INFO 1132 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-26T15:55:03.499+10:00  INFO 1132 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-26T15:55:03.519+10:00  INFO 1132 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:55:03.846+10:00  INFO 1132 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-26T15:55:04.201+10:00  INFO 1132 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:55:04.201+10:00  INFO 1132 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2024-05-26T15:55:04.705+10:00  INFO 1132 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7b6846c6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71103416, org.springframework.security.web.context.SecurityContextHolderFilter@5f4ebecd, org.springframework.security.web.header.HeaderWriterFilter@23867b97, org.springframework.web.filter.CorsFilter@503e1cd9, org.springframework.security.web.csrf.CsrfFilter@5841716b, org.springframework.security.web.authentication.logout.LogoutFilter@ffa60c9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7e654c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39f826ae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c50ba07, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20b54b6e, org.springframework.security.web.access.ExceptionTranslationFilter@19a652cd, org.springframework.security.web.access.intercept.AuthorizationFilter@2e61695b]
-2024-05-26T15:55:05.141+10:00  INFO 1132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-05-26T15:55:05.154+10:00  INFO 1132 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 7.104 seconds (process running for 7.911)
-2024-05-26T15:55:05.262+10:00  INFO 1132 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-26T15:55:05.262+10:00  INFO 1132 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-26T15:55:05.264+10:00  INFO 1132 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-27T00:06:57.941+10:00  INFO 6784 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 6784 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+2024-05-27T00:06:57.955+10:00  INFO 6784 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
+2024-05-27T00:06:59.068+10:00  INFO 6784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-27T00:06:59.139+10:00  INFO 6784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2024-05-27T00:07:00.141+10:00  INFO 6784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-27T00:07:00.159+10:00  INFO 6784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-27T00:07:00.160+10:00  INFO 6784 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-27T00:07:00.461+10:00  INFO 6784 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-27T00:07:00.470+10:00  INFO 6784 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-27T00:07:00.470+10:00  INFO 6784 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2453 ms
+2024-05-27T00:07:00.638+10:00  INFO 6784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-27T00:07:00.986+10:00  INFO 6784 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ddd84d2
+2024-05-27T00:07:00.989+10:00  INFO 6784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-27T00:07:01.426+10:00  INFO 6784 --- [main] liquibase.changelog                      : Reading from springdata.databasechangelog
+2024-05-27T00:07:01.463+10:00  INFO 6784 --- [main] liquibase.changelog                      : Reading from springdata.databasechangelog
+2024-05-27T00:07:01.490+10:00  INFO 6784 --- [main] liquibase.util                           : UPDATE SUMMARY
+2024-05-27T00:07:01.491+10:00  INFO 6784 --- [main] liquibase.util                           : Run:                          0
+2024-05-27T00:07:01.491+10:00  INFO 6784 --- [main] liquibase.util                           : Previously run:               9
+2024-05-27T00:07:01.492+10:00  INFO 6784 --- [main] liquibase.util                           : Filtered out:                 0
+2024-05-27T00:07:01.492+10:00  INFO 6784 --- [main] liquibase.util                           : -------------------------------
+2024-05-27T00:07:01.492+10:00  INFO 6784 --- [main] liquibase.util                           : Total change sets:            9
+2024-05-27T00:07:01.492+10:00  INFO 6784 --- [main] liquibase.util                           : Update summary generated
+2024-05-27T00:07:01.506+10:00  INFO 6784 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2024-05-27T00:07:01.508+10:00  INFO 6784 --- [main] liquibase.command                        : Command execution complete
+2024-05-27T00:07:01.608+10:00  INFO 6784 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-27T00:07:01.666+10:00  INFO 6784 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-27T00:07:01.710+10:00  INFO 6784 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-27T00:07:01.996+10:00  INFO 6784 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-27T00:07:03.289+10:00  INFO 6784 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-27T00:07:03.608+10:00 ERROR 6784 --- [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user','developer','manager','analyst','designer','engineer','consultant') (Types#ENUM)]
+2024-05-27T00:07:03.609+10:00  WARN 6784 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user','developer','manager','analyst','designer','engineer','consultant') (Types#ENUM)]
+2024-05-27T00:07:03.609+10:00  INFO 6784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-27T00:07:03.618+10:00  INFO 6784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-27T00:07:03.620+10:00  INFO 6784 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-27T00:07:03.629+10:00  INFO 6784 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-27T00:07:03.643+10:00 ERROR 6784 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user','developer','manager','analyst','designer','engineer','consultant') (Types#ENUM)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at spring.ApplicationRunner.main(ApplicationRunner.java:12) ~[main/:na]
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user','developer','manager','analyst','designer','engineer','consultant') (Types#ENUM)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	... 16 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [role] in table [users]; found [varchar (Types#VARCHAR)], but expecting [enum ('admin','qa','user','developer','manager','analyst','designer','engineer','consultant') (Types#ENUM)]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:165) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:152) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:75) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:295) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.6.jar:6.1.6]
+	... 20 common frames omitted
+
+2024-05-27T00:08:44.511+10:00  INFO 8948 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 8948 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+2024-05-27T00:08:44.514+10:00  INFO 8948 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
+2024-05-27T00:08:45.345+10:00  INFO 8948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-27T00:08:45.409+10:00  INFO 8948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2024-05-27T00:08:46.194+10:00  INFO 8948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-27T00:08:46.205+10:00  INFO 8948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-27T00:08:46.206+10:00  INFO 8948 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-27T00:08:46.432+10:00  INFO 8948 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-27T00:08:46.440+10:00  INFO 8948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-27T00:08:46.440+10:00  INFO 8948 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1852 ms
+2024-05-27T00:08:46.571+10:00  INFO 8948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-27T00:08:46.831+10:00  INFO 8948 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a55e82a
+2024-05-27T00:08:46.832+10:00  INFO 8948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-27T00:08:47.059+10:00  INFO 8948 --- [main] liquibase.changelog                      : Creating database history table with name: springdata.databasechangelog
+2024-05-27T00:08:47.186+10:00  INFO 8948 --- [main] liquibase.changelog                      : Reading from springdata.databasechangelog
+2024-05-27T00:08:47.256+10:00  WARN 8948 --- [main] liquibase.executor                       : Integer display width is deprecated and will be removed in a future release.
+2024-05-27T00:08:47.302+10:00  INFO 8948 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2024-05-27T00:08:47.305+10:00  INFO 8948 --- [main] liquibase.command                        : Using deploymentId: 6732527304
+2024-05-27T00:08:47.307+10:00  INFO 8948 --- [main] liquibase.changelog                      : Reading from springdata.databasechangelog
+2024-05-27T00:08:47.400+10:00  INFO 8948 --- [main] liquibase.changelog                      : Custom SQL executed
+2024-05-27T00:08:47.402+10:00  INFO 8948 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-1.0.sql::1::razuvaev ran successfully in 65ms
+2024-05-27T00:08:47.462+10:00  INFO 8948 --- [main] liquibase.changelog                      : Custom SQL executed
+2024-05-27T00:08:47.463+10:00  INFO 8948 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-1.0.sql::2::razuvaev ran successfully in 47ms
+2024-05-27T00:08:47.576+10:00  INFO 8948 --- [main] liquibase.changelog                      : Custom SQL executed
+2024-05-27T00:08:47.578+10:00  INFO 8948 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-1.0.sql::3::razuvaev ran successfully in 89ms
+2024-05-27T00:08:47.634+10:00  INFO 8948 --- [main] liquibase.changelog                      : Custom SQL executed
+2024-05-27T00:08:47.636+10:00  INFO 8948 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-1.0.sql::4::razuvaev ran successfully in 48ms
+2024-05-27T00:08:47.666+10:00  INFO 8948 --- [main] liquibase.changelog                      : Custom SQL executed
+2024-05-27T00:08:47.667+10:00  INFO 8948 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-1.0.sql::5::razuvaev ran successfully in 24ms
+2024-05-27T00:08:47.759+10:00  INFO 8948 --- [main] liquibase.changelog                      : Custom SQL executed
+2024-05-27T00:08:47.761+10:00  INFO 8948 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-1.0.sql::6::razuvaev ran successfully in 86ms
+2024-05-27T00:08:47.774+10:00  INFO 8948 --- [main] liquibase.changelog                      : Custom SQL executed
+2024-05-27T00:08:47.777+10:00  INFO 8948 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-2.0.sql::1::razuvaev ran successfully in 6ms
+2024-05-27T00:08:47.788+10:00  INFO 8948 --- [main] liquibase.changelog                      : Custom SQL executed
+2024-05-27T00:08:47.793+10:00  INFO 8948 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-2.0.sql::2::razuvaev ran successfully in 10ms
+2024-05-27T00:08:47.818+10:00  INFO 8948 --- [main] liquibase.changelog                      : Custom SQL executed
+2024-05-27T00:08:47.819+10:00  INFO 8948 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-2.0.sql::3::razuvaev ran successfully in 18ms
+2024-05-27T00:08:47.829+10:00  INFO 8948 --- [main] liquibase.util                           : UPDATE SUMMARY
+2024-05-27T00:08:47.830+10:00  INFO 8948 --- [main] liquibase.util                           : Run:                          9
+2024-05-27T00:08:47.830+10:00  INFO 8948 --- [main] liquibase.util                           : Previously run:               0
+2024-05-27T00:08:47.830+10:00  INFO 8948 --- [main] liquibase.util                           : Filtered out:                 0
+2024-05-27T00:08:47.830+10:00  INFO 8948 --- [main] liquibase.util                           : -------------------------------
+2024-05-27T00:08:47.831+10:00  INFO 8948 --- [main] liquibase.util                           : Total change sets:            9
+2024-05-27T00:08:47.831+10:00  INFO 8948 --- [main] liquibase.util                           : Update summary generated
+2024-05-27T00:08:47.833+10:00  INFO 8948 --- [main] liquibase.command                        : Update command completed successfully.
+2024-05-27T00:08:47.840+10:00  INFO 8948 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2024-05-27T00:08:47.842+10:00  INFO 8948 --- [main] liquibase.command                        : Command execution complete
+2024-05-27T00:08:47.936+10:00  INFO 8948 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-27T00:08:47.973+10:00  INFO 8948 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-27T00:08:48.002+10:00  INFO 8948 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-27T00:08:48.197+10:00  INFO 8948 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-27T00:08:49.103+10:00  INFO 8948 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-27T00:08:49.345+10:00  INFO 8948 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27T00:08:49.368+10:00  INFO 8948 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2024-05-27T00:08:49.659+10:00  INFO 8948 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-27T00:08:49.972+10:00  INFO 8948 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2024-05-27T00:08:49.973+10:00  INFO 8948 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2024-05-27T00:08:50.501+10:00  INFO 8948 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4a05902b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76d11298, org.springframework.security.web.context.SecurityContextHolderFilter@7cfe97db, org.springframework.security.web.header.HeaderWriterFilter@323ebcc6, org.springframework.web.filter.CorsFilter@af913dc, org.springframework.security.web.csrf.CsrfFilter@173ee8f7, org.springframework.security.web.authentication.logout.LogoutFilter@f47bd4d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@28c319a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5390bdee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@354aaf03, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@bdc2f96, org.springframework.security.web.access.ExceptionTranslationFilter@7e6c990f, org.springframework.security.web.access.intercept.AuthorizationFilter@692c5533]
+2024-05-27T00:08:50.998+10:00  INFO 8948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-27T00:08:51.005+10:00  INFO 8948 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 6.911 seconds (process running for 7.517)
+2024-05-27T00:10:57.866+10:00  INFO 8948 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27T00:10:57.869+10:00  INFO 8948 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-27T00:10:57.885+10:00  INFO 8948 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-27T00:11:15.908+10:00  INFO 9052 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 9052 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+2024-05-27T00:11:15.910+10:00  INFO 9052 --- [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
+2024-05-27T00:11:16.790+10:00  INFO 9052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-27T00:11:16.870+10:00  INFO 9052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2024-05-27T00:11:17.747+10:00  INFO 9052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-27T00:11:17.762+10:00  INFO 9052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-27T00:11:17.762+10:00  INFO 9052 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-27T00:11:18.009+10:00  INFO 9052 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-27T00:11:18.016+10:00  INFO 9052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-27T00:11:18.016+10:00  INFO 9052 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2051 ms
+2024-05-27T00:11:18.161+10:00  INFO 9052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-27T00:11:18.448+10:00  INFO 9052 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f6fd101
+2024-05-27T00:11:18.450+10:00  INFO 9052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-27T00:11:18.821+10:00  INFO 9052 --- [main] liquibase.changelog                      : Reading from springdata.databasechangelog
+2024-05-27T00:11:18.867+10:00  INFO 9052 --- [main] liquibase.changelog                      : Reading from springdata.databasechangelog
+2024-05-27T00:11:18.896+10:00  INFO 9052 --- [main] liquibase.util                           : UPDATE SUMMARY
+2024-05-27T00:11:18.897+10:00  INFO 9052 --- [main] liquibase.util                           : Run:                          0
+2024-05-27T00:11:18.898+10:00  INFO 9052 --- [main] liquibase.util                           : Previously run:               9
+2024-05-27T00:11:18.898+10:00  INFO 9052 --- [main] liquibase.util                           : Filtered out:                 0
+2024-05-27T00:11:18.898+10:00  INFO 9052 --- [main] liquibase.util                           : -------------------------------
+2024-05-27T00:11:18.898+10:00  INFO 9052 --- [main] liquibase.util                           : Total change sets:            9
+2024-05-27T00:11:18.898+10:00  INFO 9052 --- [main] liquibase.util                           : Update summary generated
+2024-05-27T00:11:18.916+10:00  INFO 9052 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2024-05-27T00:11:18.918+10:00  INFO 9052 --- [main] liquibase.command                        : Command execution complete
+2024-05-27T00:11:19.024+10:00  INFO 9052 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-27T00:11:19.083+10:00  INFO 9052 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-27T00:11:19.123+10:00  INFO 9052 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-27T00:11:19.327+10:00  INFO 9052 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-27T00:11:20.342+10:00  INFO 9052 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-27T00:11:20.615+10:00  INFO 9052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27T00:11:20.641+10:00  INFO 9052 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2024-05-27T00:11:20.968+10:00  INFO 9052 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-27T00:11:21.323+10:00  INFO 9052 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2024-05-27T00:11:21.324+10:00  INFO 9052 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2024-05-27T00:11:22.000+10:00  INFO 9052 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@60fc87e8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18f52e63, org.springframework.security.web.context.SecurityContextHolderFilter@7e7254d1, org.springframework.security.web.header.HeaderWriterFilter@1d17b20f, org.springframework.web.filter.CorsFilter@35188cd2, org.springframework.security.web.csrf.CsrfFilter@645650b1, org.springframework.security.web.authentication.logout.LogoutFilter@45198fd9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6fbe879b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@402c3dce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4af2f2ae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f570944, org.springframework.security.web.access.ExceptionTranslationFilter@60af38ec, org.springframework.security.web.access.intercept.AuthorizationFilter@2517d499]
+2024-05-27T00:11:22.541+10:00  INFO 9052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-27T00:11:22.549+10:00  INFO 9052 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 7.13 seconds (process running for 7.832)
+2024-05-27T00:16:37.878+10:00  INFO 9052 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27T00:16:37.887+10:00  INFO 9052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-27T00:16:37.898+10:00  INFO 9052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -12,7 +12,7 @@ import java.time.LocalDate;
 @Value
 
 public class UserReadDto {
-    Long id;
+    Integer id;
     @Email
     String username;
     @DateTimeFormat(pattern = "dd-MM-yyyy")
