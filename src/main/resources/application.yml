@@ -47,6 +47,9 @@ spring:
 app:
   image:
     bucket: C:\Users\maks_\IdeaProjects\SpingStart\images
+  service:
+    logging:
+      enabled: true
 
 logging:
   level:

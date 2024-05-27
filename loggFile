@@ -185,3 +185,136 @@ Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-valid
 2024-05-27T00:16:37.878+10:00  INFO 9052 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-27T00:16:37.887+10:00  INFO 9052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-05-27T00:16:37.898+10:00  INFO 9052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-27T01:31:25.768+10:00  INFO 20884 --- [common-logging-spring-boot-starter] [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 20884 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+2024-05-27T01:31:25.770+10:00  INFO 20884 --- [common-logging-spring-boot-starter] [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
+2024-05-27T01:31:26.667+10:00  INFO 20884 --- [common-logging-spring-boot-starter] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-27T01:31:26.729+10:00  INFO 20884 --- [common-logging-spring-boot-starter] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2024-05-27T01:31:27.136+10:00  WARN 20884 --- [common-logging-spring-boot-starter] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'injectBeanPostProcessor' defined in file [C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main\spring\bpp\InjectBeanPostProcessor.class]: BeanPostProcessor before instantiation of bean failed
+2024-05-27T01:31:27.143+10:00  INFO 20884 --- [common-logging-spring-boot-starter] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-27T01:31:27.158+10:00 ERROR 20884 --- [common-logging-spring-boot-starter] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'injectBeanPostProcessor' defined in file [C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main\spring\bpp\InjectBeanPostProcessor.class]: BeanPostProcessor before instantiation of bean failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:277) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:805) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at spring.ApplicationRunner.main(ApplicationRunner.java:12) ~[main/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Pointcut is not well-formed: expecting ')' at character position 30
+isControllerLayer() && @args(*.validator.UserInfo,..)
+                              ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:281) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1130) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1105) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:511) ~[spring-beans-6.1.6.jar:6.1.6]
+	... 14 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 30
+isControllerLayer() && @args(*.validator.UserInfo,..)
+                              ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:334) ~[aspectjweaver-1.9.22.jar:na]
+	at org.aspectj.weaver.reflect.InternalUseOnlyPointcutParser.resolvePointcutExpression(InternalUseOnlyPointcutParser.java:36) ~[aspectjweaver-1.9.22.jar:na]
+	at org.aspectj.weaver.reflect.Java15ReflectionBasedReferenceTypeDelegate.getDeclaredPointcuts(Java15ReflectionBasedReferenceTypeDelegate.java:307) ~[aspectjweaver-1.9.22.jar:na]
+	at org.aspectj.weaver.ReferenceType.getDeclaredPointcuts(ReferenceType.java:890) ~[aspectjweaver-1.9.22.jar:1.9.22]
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:261) ~[aspectjweaver-1.9.22.jar:1.9.22]
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:258) ~[aspectjweaver-1.9.22.jar:1.9.22]
+	at org.aspectj.weaver.Iterators$4$1.hasNext(Iterators.java:213) ~[aspectjweaver-1.9.22.jar:1.9.22]
+	at org.aspectj.weaver.Iterators$4.hasNext(Iterators.java:230) ~[aspectjweaver-1.9.22.jar:1.9.22]
+	at org.aspectj.weaver.ResolvedType.findPointcut(ResolvedType.java:767) ~[aspectjweaver-1.9.22.jar:1.9.22]
+	at org.aspectj.weaver.patterns.ReferencePointcut.resolveBindings(ReferencePointcut.java:148) ~[aspectjweaver-1.9.22.jar:na]
+	at org.aspectj.weaver.patterns.AndPointcut.resolveBindings(AndPointcut.java:83) ~[aspectjweaver-1.9.22.jar:na]
+	at org.aspectj.weaver.patterns.Pointcut.resolve(Pointcut.java:189) ~[aspectjweaver-1.9.22.jar:na]
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:331) ~[aspectjweaver-1.9.22.jar:na]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:312) ~[aspectjweaver-1.9.22.jar:na]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:223) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:194) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:173) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:236) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:298) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:330) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:368) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:320) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:438) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1789) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	... 36 common frames omitted
+
+2024-05-27T01:33:34.570+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 21.0.2 with PID 10152 (C:\Users\maks_\IdeaProjects\SpingStart\build\classes\java\main started by maks_ in C:\Users\maks_\IdeaProjects\SpingStart)
+2024-05-27T01:33:34.571+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] spring.ApplicationRunner                 : The following 1 profile is active: "qa"
+2024-05-27T01:33:35.481+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-27T01:33:35.547+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2024-05-27T01:33:36.451+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-27T01:33:36.478+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-27T01:33:36.479+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-27T01:33:36.764+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-27T01:33:36.775+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-27T01:33:36.775+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2153 ms
+2024-05-27T01:33:36.923+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-27T01:33:37.196+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a55e82a
+2024-05-27T01:33:37.198+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-27T01:33:37.604+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] liquibase.changelog                      : Reading from springdata.databasechangelog
+2024-05-27T01:33:37.643+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] liquibase.changelog                      : Reading from springdata.databasechangelog
+2024-05-27T01:33:37.665+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] liquibase.util                           : UPDATE SUMMARY
+2024-05-27T01:33:37.666+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] liquibase.util                           : Run:                          0
+2024-05-27T01:33:37.666+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] liquibase.util                           : Previously run:               9
+2024-05-27T01:33:37.666+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] liquibase.util                           : Filtered out:                 0
+2024-05-27T01:33:37.666+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] liquibase.util                           : -------------------------------
+2024-05-27T01:33:37.666+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] liquibase.util                           : Total change sets:            9
+2024-05-27T01:33:37.666+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] liquibase.util                           : Update summary generated
+2024-05-27T01:33:37.680+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] liquibase.lockservice                    : Successfully released change log lock
+2024-05-27T01:33:37.681+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] liquibase.command                        : Command execution complete
+2024-05-27T01:33:37.760+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-27T01:33:37.803+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-27T01:33:37.847+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-27T01:33:38.056+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-27T01:33:39.138+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-27T01:33:39.390+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27T01:33:39.414+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2024-05-27T01:33:39.738+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-27T01:33:40.125+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2024-05-27T01:33:40.126+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2024-05-27T01:33:40.748+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5d4e11ce, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18b25ef3, org.springframework.security.web.context.SecurityContextHolderFilter@12f35f55, org.springframework.security.web.header.HeaderWriterFilter@7e9589b2, org.springframework.web.filter.CorsFilter@60fc87e8, org.springframework.security.web.csrf.CsrfFilter@1503ef2, org.springframework.security.web.authentication.logout.LogoutFilter@36f2a2a3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@50bae745, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e549525, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d0e1f13, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18f52e63, org.springframework.security.web.access.ExceptionTranslationFilter@44d39d83, org.springframework.security.web.access.intercept.AuthorizationFilter@32b1d581]
+2024-05-27T01:33:41.111+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] b.s.config.LoggingAutoConfiguration      : LoggingAutoConfiguration initialized
+2024-05-27T01:33:41.114+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] by.spring.config.LoggingProperties       : logging properties initialized LoggingProperties(enabled=true)
+2024-05-27T01:33:41.414+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-27T01:33:41.423+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [main] spring.ApplicationRunner                 : Started ApplicationRunner in 7.331 seconds (process running for 7.978)
+2024-05-27T01:33:55.365+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-27T01:33:55.366+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-27T01:33:55.368+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-27T01:34:23.358+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27T01:34:23.363+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-27T01:34:23.383+10:00  INFO 10152 --- [common-logging-spring-boot-starter] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

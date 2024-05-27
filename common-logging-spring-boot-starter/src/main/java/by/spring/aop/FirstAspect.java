@@ -1,23 +1,19 @@
-package spring.aop;
+package by.spring.aop;
 
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
-import org.springframework.core.annotation.Order;
-import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 @Slf4j
 @Aspect
-@Component
-@Order(2)
 public class FirstAspect {
 
     @Pointcut("@within(org.springframework.stereotype.Controller)")
     public void isControllerLayer(){
     }
-    @Pointcut("within(spring.service.*Service)")
+    @Pointcut("within(*.service.*Service)")
     public void isServiceLayer(){
     }
     @Pointcut("target(org.springframework.stereotype.Repository)")
@@ -29,7 +25,7 @@ public class FirstAspect {
     @Pointcut("isControllerLayer() && args(org.springframework.ui.Model,..)")
     public void hasModelArg(){
     }
-    @Pointcut("isControllerLayer() && @args(spring.validator.UserInfo,..)")
+    @Pointcut("isControllerLayer() && @args(*.validator.UserInfo,..)")
     public void hasUserInfoParamAnnotation(){
     }
     @Pointcut("bean(userService)")
@@ -39,10 +35,10 @@ public class FirstAspect {
     public void isServiceLayerBeen(){
     }
 
-    @Pointcut("execution(public * spring.service.*Service.findById(*,..))")
+    @Pointcut("execution(public * *.service.*Service.findById(*,..))")
     public void anyServiceFindByIdMethod(){
     }
-    @Pointcut("execution(public * spring.service.*Service.findById(*,..))")
+    @Pointcut("execution(public * *.service.*Service.findById(*,..))")
     public void anyFindByIdMethod(){
     }
 
